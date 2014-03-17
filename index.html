@@ -43,7 +43,7 @@
               <label class="checkbox inline"></label>
               <label class="radio inline"><input type="radio" name="cat-y">Owner</label>
           </div>
-          <div class="row area-well">
+          <div class="row area-well showon">
               <span class="legend">Type:</span>
               <label class="checkbox inline span3"><input type="checkbox" />Agency</label>
               <label class="checkbox inline span3"><input type="checkbox" />Bank/Thrift</label>
@@ -59,58 +59,56 @@
               <label class="checkbox inline span3"><input type="checkbox" />Private Equity</label>
               <label class="checkbox inline span3"><input type="checkbox" />REIT</label>
           </div>
-          <div class="row-fluid">
-            <div class="span4">
-              <div class="area-well">
+
+              <div class="area-well showon showon-owner">
                 <span class="legend">Property class:</span>
                 <label class="checkbox"><input type="checkbox" />A</label>
                 <label class="checkbox"><input type="checkbox" />B</label>
                 <label class="checkbox"><input type="checkbox" />C</label>
                 <label class="checkbox"><input type="checkbox" />Sub C</label>
               </div>
-            </div>
-            <div class="span4">
-              <div class="area-well">
-                <span class="legend">Deal Size:</span>
-                <div class="control-group">
-                  <label class="control-label" for="min">Minimum:</label>
-                  <div class="controls">
-                    <input type="text" id="min" placeholder="Enter Text">
-                  </div>
-                </div>
-                <div class="control-group">
-                  <label class="control-label" for="max">Maximum:</label>
-                  <div class="controls">
-                    <input type="text" id="max" placeholder="Enter Text">
-                  </div>
-                </div>
-              </div>
-              <div class="area-well">
+
+              <div class="area-well row-fluid showon showon-owner">
+                <div class="span4">
                   <span class="legend">Deal Size:</span>
+                  <div class="control-group">
+                    <label class="control-label" for="min">Minimum:</label>
+                    <div class="controls">
+                      <input type="text" id="min" placeholder="Enter Text">
+                    </div>
+                  </div>
+                </div>
+                <div class="span4">
+                  <div class="control-group">
+                    <label class="control-label" for="max">Maximum:</label>
+                    <div class="controls">
+                      <input type="text" id="max" placeholder="Enter Text">
+                    </div>
+                  </div>
+                </div>
+                <div class="span4">
                   <div class="control-group">
                     <label class="control-label" for="val">Value:</label>
                     <div class="controls">
                       <input type="text" id="val" placeholder="Enter Text">
                     </div>
                   </div>
+                </div>
               </div>
-            </div>
-            <div class="span4">
-              <div class="area-well">
+
+              <div class="area-well showon showon-owner">
                     <span class="legend">Economic Parameters:</span>
                     <label class="checkbox"><input type="checkbox" />Stabilized</label>
                     <label class="checkbox"><input type="checkbox" />Non-stabilized</label>
                     <label class="checkbox"><input type="checkbox" />Non-Cash flowing/vacant</label>
               </div>
-            </div>
 
-          </div>
 
-          <div class="row area-well">
+          <div class="row area-well showon showon-owner">
               <span class="legend">Key Influencer:</span>
               ?
           </div>
-          <div class="row area-well">
+          <div class="row area-well showon showon-owner">
               <span class="legend">Property types:</span>
               <select multiple>
                 <optgroup label="Office">
@@ -200,7 +198,7 @@
                 </optgroup>
               </select>
           </div>
-          <div class="row area-well">
+          <div class="row area-well showon showon-owner">
               <span class="legend">Client Programs:</span>
               <label class="checkbox inline span3"><input type="checkbox" />Core</label>
               <label class="checkbox inline span3"><input type="checkbox" />Core Plus</label>
@@ -212,7 +210,7 @@
               <label class="checkbox inline span3"><input type="checkbox" />JVs Considered</label>
               <label class="checkbox inline span3"><input type="checkbox" />JVs Only</label>
           </div>
-          <div class="row area-well">
+          <div class="row area-well showon">
               <span class="legend">Programs:</span>
               <label class="checkbox inline span3"><input type="checkbox" />Permanent</label>
               <label class="checkbox inline span3"><input type="checkbox" />Bridge/Interim</label>
@@ -234,7 +232,7 @@
               <label class="checkbox inline span3"><input type="checkbox" />Participating mortgage</label>
           </div>
           <div class="area clearfix">
-            <button type="button" class="btn btn-danger pull-right">Save</button>
+            <button type="button" class="btn btn-danger pull-right">GO</button>
           </div>
         </article>
     </section>

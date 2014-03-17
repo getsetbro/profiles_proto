@@ -104,3 +104,10 @@ select[multiple]{
 .controls input{
   width:90%;
 }
+
+.showon, .showon-owner{
+  display: none
+}
+.owner .showon-owner, .chk .showon{
+  display: block;
+}
