@@ -1,0 +1,93 @@
+html{
+  height:100%;
+}
+body{
+  padding-top:42px;
+  height:100%;
+}
+body, body * {
+  box-sizing: border-box;
+}
+/*bootstrap changes*/
+input[type="text"]{
+  box-sizing: content-box;
+}
+.input-append{
+  white-space: nowrap;
+}
+/**/
+.navbar{
+  border-bottom:2px solid #cc3b3b;
+}
+.navbar .brand {
+  margin-left: 0;
+}
+.section{
+  display: table;
+  table-layout: fixed;
+  min-height: 100%;
+  min-width: 100%
+}
+.l1{
+  display:table-cell;
+  vertical-align:top;
+}
+
+nav{
+  width:86px;
+  background-color:#333;
+}
+nav:before, aside:before{
+  content: '';
+  display: block;
+  height: 0;
+  overflow: hidden;
+  width:86px;
+}
+aside{
+  width:300px;
+  background-color:#ddd;
+}
+aside:before{
+  width:300px;
+}
+article{
+  background-color:#eee;
+/*  background-image: url('../img/gray_jean.png');*/
+  padding-bottom:10px;
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+}
+article .area{
+margin: 10px;
+padding: 10px;
+}
+article .area-well{
+position: relative;
+margin: 10px;
+padding: 29px 10px 10px;
+background-color: #fff;
+border: 1px solid #ddd;
+border-radius: 4px;
+}
+.legend {
+position: absolute;
+top: -1px;
+left: -1px;
+padding: 3px 7px;
+font-size: 12px;
+font-weight: bold;
+background-color: #f5f5f5;
+border: 1px solid #ddd;
+color: #9da0a4;
+border-radius: 4px 0 4px 0;
+}
+.nowrap{
+  white-space: nowrap;
+}
+
+.checkbox.inline {
+  margin-left: 10px;
+}
+select[multiple]{
+  height: 210px;
+}

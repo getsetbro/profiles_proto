@@ -1,0 +1,533 @@
+[
+  {
+    "Items": [
+      {
+        "Key": 0,
+        "Value": "No",
+        "ID": 0,
+        "Name": "No",
+        "Tag": null,
+        "SubItems": []
+      },
+      {
+        "Key": 1,
+        "Value": "Yes",
+        "ID": 1,
+        "Name": "Yes",
+        "Tag": null,
+        "SubItems": []
+      }
+    ],
+    "StringItems": null,
+    "GuidItems": null,
+    "Name": "avajll_amcmgbridge",
+    "EntityName": "avajll_needsprofile"
+  },
+  {
+    "Items": [
+      {
+        "Key": 1,
+        "Value": "Full",
+        "ID": 1,
+        "Name": "Full",
+        "Tag": null,
+        "SubItems": []
+      },
+      {
+        "Key": 2,
+        "Value": "None",
+        "ID": 2,
+        "Name": "None",
+        "Tag": null,
+        "SubItems": []
+      },
+      {
+        "Key": 3,
+        "Value": "Partial",
+        "ID": 3,
+        "Name": "Partial",
+        "Tag": null,
+        "SubItems": []
+      }
+    ],
+    "StringItems": null,
+    "GuidItems": null,
+    "Name": "avajll_recourse",
+    "EntityName": "avajll_needsprofile"
+  },
+  {
+    "Items": [
+      {
+        "Key": 1,
+        "Value": "A+",
+        "ID": 1,
+        "Name": "A+",
+        "Tag": null,
+        "SubItems": []
+      },
+      {
+        "Key": 2,
+        "Value": "A",
+        "ID": 2,
+        "Name": "A",
+        "Tag": null,
+        "SubItems": []
+      },
+      {
+        "Key": 3,
+        "Value": "B+",
+        "ID": 3,
+        "Name": "B+",
+        "Tag": null,
+        "SubItems": []
+      },
+      {
+        "Key": 4,
+        "Value": "B",
+        "ID": 4,
+        "Name": "B",
+        "Tag": null,
+        "SubItems": []
+      },
+      {
+        "Key": 5,
+        "Value": "B-",
+        "ID": 5,
+        "Name": "B-",
+        "Tag": null,
+        "SubItems": []
+      },
+      {
+        "Key": 6,
+        "Value": "C",
+        "ID": 6,
+        "Name": "C",
+        "Tag": null,
+        "SubItems": []
+      },
+      {
+        "Key": 7,
+        "Value": "D",
+        "ID": 7,
+        "Name": "D",
+        "Tag": null,
+        "SubItems": []
+      }
+    ],
+    "StringItems": null,
+    "GuidItems": null,
+    "Name": "avajll_assetclass2",
+    "EntityName": "avajll_property"
+  },
+  {
+    "Items": [
+      {
+        "Key": "4baef7ff-2f20-dd11-98a3-00188b2e03d9",
+        "Value": "Call Centers",
+        "ID": "4baef7ff-2f20-dd11-98a3-00188b2e03d9",
+        "Name": "Call Centers",
+        "Tag": null,
+        "SubItems": []
+      },
+      {
+        "Key": "dc52b068-3020-dd11-98a3-00188b2e03d9",
+        "Value": "Critical Environment",
+        "ID": "dc52b068-3020-dd11-98a3-00188b2e03d9",
+        "Name": "Critical Environment",
+        "Tag": null,
+        "SubItems": []
+      },
+      {
+        "Key": "e479eb76-3020-dd11-98a3-00188b2e03d9",
+        "Value": "Development",
+        "ID": "e479eb76-3020-dd11-98a3-00188b2e03d9",
+        "Name": "Development",
+        "Tag": null,
+        "SubItems": []
+      },
+      {
+        "Key": "26317080-3020-dd11-98a3-00188b2e03d9",
+        "Value": "Flex/R&D",
+        "ID": "26317080-3020-dd11-98a3-00188b2e03d9",
+        "Name": "Flex/R&D",
+        "Tag": null,
+        "SubItems": []
+      },
+      {
+        "Key": "7e75d899-3020-dd11-98a3-00188b2e03d9",
+        "Value": "Hospitality",
+        "ID": "7e75d899-3020-dd11-98a3-00188b2e03d9",
+        "Name": "Hospitality",
+        "Tag": null,
+        "SubItems": []
+      },
+      {
+        "Key": "d8f323a3-3020-dd11-98a3-00188b2e03d9",
+        "Value": "Hotel",
+        "ID": "d8f323a3-3020-dd11-98a3-00188b2e03d9",
+        "Name": "Hotel",
+        "Tag": null,
+        "SubItems": []
+      },
+      {
+        "Key": "23e371cf-3020-dd11-98a3-00188b2e03d9",
+        "Value": "Industrial",
+        "ID": "23e371cf-3020-dd11-98a3-00188b2e03d9",
+        "Name": "Industrial",
+        "Tag": null,
+        "SubItems": []
+      },
+      {
+        "Key": "b36806da-3020-dd11-98a3-00188b2e03d9",
+        "Value": "Land",
+        "ID": "b36806da-3020-dd11-98a3-00188b2e03d9",
+        "Name": "Land",
+        "Tag": null,
+        "SubItems": []
+      },
+      {
+        "Key": "586af0df-3020-dd11-98a3-00188b2e03d9",
+        "Value": "Mixed-Use",
+        "ID": "586af0df-3020-dd11-98a3-00188b2e03d9",
+        "Name": "Mixed-Use",
+        "Tag": null,
+        "SubItems": []
+      },
+      {
+        "Key": "7108f7e5-3020-dd11-98a3-00188b2e03d9",
+        "Value": "Multi Family",
+        "ID": "7108f7e5-3020-dd11-98a3-00188b2e03d9",
+        "Name": "Multi Family",
+        "Tag": null,
+        "SubItems": []
+      },
+      {
+        "Key": "5a1083ff-3020-dd11-98a3-00188b2e03d9",
+        "Value": "Office / Commercial",
+        "ID": "5a1083ff-3020-dd11-98a3-00188b2e03d9",
+        "Name": "Office / Commercial",
+        "Tag": null,
+        "SubItems": []
+      },
+      {
+        "Key": "8de98103-3120-dd11-98a3-00188b2e03d9",
+        "Value": "Other",
+        "ID": "8de98103-3120-dd11-98a3-00188b2e03d9",
+        "Name": "Other",
+        "Tag": null,
+        "SubItems": []
+      },
+      {
+        "Key": "575ec20b-3120-dd11-98a3-00188b2e03d9",
+        "Value": "Portfolio",
+        "ID": "575ec20b-3120-dd11-98a3-00188b2e03d9",
+        "Name": "Portfolio",
+        "Tag": null,
+        "SubItems": []
+      },
+      {
+        "Key": "f2fe8d13-3120-dd11-98a3-00188b2e03d9",
+        "Value": "Residential",
+        "ID": "f2fe8d13-3120-dd11-98a3-00188b2e03d9",
+        "Name": "Residential",
+        "Tag": null,
+        "SubItems": []
+      },
+      {
+        "Key": "843a8f17-3120-dd11-98a3-00188b2e03d9",
+        "Value": "Retail",
+        "ID": "843a8f17-3120-dd11-98a3-00188b2e03d9",
+        "Name": "Retail",
+        "Tag": null,
+        "SubItems": []
+      },
+      {
+        "Key": "e6fc3c36-3120-dd11-98a3-00188b2e03d9",
+        "Value": "Special Purpose/Use",
+        "ID": "e6fc3c36-3120-dd11-98a3-00188b2e03d9",
+        "Name": "Special Purpose/Use",
+        "Tag": null,
+        "SubItems": []
+      },
+      {
+        "Key": "305b5ea0-e4a5-dd11-ad6d-00188b2e03d9",
+        "Value": "Lab",
+        "ID": "305b5ea0-e4a5-dd11-ad6d-00188b2e03d9",
+        "Name": "Lab",
+        "Tag": null,
+        "SubItems": []
+      },
+      {
+        "Key": "7084e6fe-a506-de11-875b-005056923ec5",
+        "Value": "Air Rights",
+        "ID": "7084e6fe-a506-de11-875b-005056923ec5",
+        "Name": "Air Rights",
+        "Tag": null,
+        "SubItems": []
+      },
+      {
+        "Key": "08c97482-e625-de11-b977-0050569c0cb2",
+        "Value": "NNN",
+        "ID": "08c97482-e625-de11-b977-0050569c0cb2",
+        "Name": "NNN",
+        "Tag": null,
+        "SubItems": []
+      }
+    ],
+    "Name": null,
+    "EntityName": "PropertyType"
+  },
+  {
+    "Items": [
+      {
+        "Key": "00000000-0000-0000-0000-000000000000",
+        "Value": "Junior Debt",
+        "ID": "00000000-0000-0000-0000-000000000000",
+        "Name": "Junior Debt",
+        "Tag": null,
+        "SubItems": []
+      },
+      {
+        "Key": "00000000-0000-0000-0000-000000000000",
+        "Value": "JV Equity",
+        "ID": "00000000-0000-0000-0000-000000000000",
+        "Name": "JV Equity",
+        "Tag": null,
+        "SubItems": []
+      },
+      {
+        "Key": "00000000-0000-0000-0000-000000000000",
+        "Value": "Mezzanine",
+        "ID": "00000000-0000-0000-0000-000000000000",
+        "Name": "Mezzanine",
+        "Tag": null,
+        "SubItems": []
+      },
+      {
+        "Key": "00000000-0000-0000-0000-000000000000",
+        "Value": "Participating Mezzanine",
+        "ID": "00000000-0000-0000-0000-000000000000",
+        "Name": "Participating Mezzanine",
+        "Tag": null,
+        "SubItems": []
+      },
+      {
+        "Key": "00000000-0000-0000-0000-000000000000",
+        "Value": "Perferred Equity",
+        "ID": "00000000-0000-0000-0000-000000000000",
+        "Name": "Perferred Equity",
+        "Tag": null,
+        "SubItems": []
+      },
+      {
+        "Key": "00000000-0000-0000-0000-000000000000",
+        "Value": "Senior Debt",
+        "ID": "00000000-0000-0000-0000-000000000000",
+        "Name": "Senior Debt",
+        "Tag": null,
+        "SubItems": []
+      }
+    ],
+    "Name": null,
+    "EntityName": "CapStackReq"
+  },
+  {
+    "Items": [
+      {
+        "Key": "00000000-0000-0000-0000-000000000000",
+        "Value": "Primary",
+        "ID": "00000000-0000-0000-0000-000000000000",
+        "Name": "Primary",
+        "Tag": null,
+        "SubItems": [
+          {
+            "Key": "00000000-0000-0000-0000-000000000000",
+            "Value": "Atlanta",
+            "ID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Atlanta",
+            "Tag": null,
+            "SubItems": []
+          },
+          {
+            "Key": "00000000-0000-0000-0000-000000000000",
+            "Value": "Austin",
+            "ID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Austin",
+            "Tag": null,
+            "SubItems": []
+          },
+          {
+            "Key": "00000000-0000-0000-0000-000000000000",
+            "Value": "Baltimore",
+            "ID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Baltimore",
+            "Tag": null,
+            "SubItems": []
+          },
+          {
+            "Key": "00000000-0000-0000-0000-000000000000",
+            "Value": "Boston",
+            "ID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Boston",
+            "Tag": null,
+            "SubItems": []
+          },
+          {
+            "Key": "00000000-0000-0000-0000-000000000000",
+            "Value": "Chicago",
+            "ID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Chicago",
+            "Tag": null,
+            "SubItems": []
+          },
+          {
+            "Key": "00000000-0000-0000-0000-000000000000",
+            "Value": "Dallas",
+            "ID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Dallas",
+            "Tag": null,
+            "SubItems": []
+          },
+          {
+            "Key": "00000000-0000-0000-0000-000000000000",
+            "Value": "Florida",
+            "ID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Florida",
+            "Tag": null,
+            "SubItems": []
+          },
+          {
+            "Key": "00000000-0000-0000-0000-000000000000",
+            "Value": "Houston",
+            "ID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Houston",
+            "Tag": null,
+            "SubItems": []
+          },
+          {
+            "Key": "00000000-0000-0000-0000-000000000000",
+            "Value": "Inland Empire",
+            "ID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Inland Empire",
+            "Tag": null,
+            "SubItems": []
+          },
+          {
+            "Key": "00000000-0000-0000-0000-000000000000",
+            "Value": "Los Angeles",
+            "ID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Los Angeles",
+            "Tag": null,
+            "SubItems": []
+          },
+          {
+            "Key": "00000000-0000-0000-0000-000000000000",
+            "Value": "Miami",
+            "ID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Miami",
+            "Tag": null,
+            "SubItems": []
+          },
+          {
+            "Key": "00000000-0000-0000-0000-000000000000",
+            "Value": "Minneapolis",
+            "ID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Minneapolis",
+            "Tag": null,
+            "SubItems": []
+          },
+          {
+            "Key": "00000000-0000-0000-0000-000000000000",
+            "Value": "New York",
+            "ID": "00000000-0000-0000-0000-000000000000",
+            "Name": "New York",
+            "Tag": null,
+            "SubItems": []
+          },
+          {
+            "Key": "00000000-0000-0000-0000-000000000000",
+            "Value": "Orange County",
+            "ID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Orange County",
+            "Tag": null,
+            "SubItems": []
+          },
+          {
+            "Key": "00000000-0000-0000-0000-000000000000",
+            "Value": "Philadelphia",
+            "ID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Philadelphia",
+            "Tag": null,
+            "SubItems": []
+          },
+          {
+            "Key": "00000000-0000-0000-0000-000000000000",
+            "Value": "Phoenix",
+            "ID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Phoenix",
+            "Tag": null,
+            "SubItems": []
+          },
+          {
+            "Key": "00000000-0000-0000-0000-000000000000",
+            "Value": "San Antonio",
+            "ID": "00000000-0000-0000-0000-000000000000",
+            "Name": "San Antonio",
+            "Tag": null,
+            "SubItems": []
+          },
+          {
+            "Key": "00000000-0000-0000-0000-000000000000",
+            "Value": "San Diego",
+            "ID": "00000000-0000-0000-0000-000000000000",
+            "Name": "San Diego",
+            "Tag": null,
+            "SubItems": []
+          },
+          {
+            "Key": "00000000-0000-0000-0000-000000000000",
+            "Value": "San Francisco",
+            "ID": "00000000-0000-0000-0000-000000000000",
+            "Name": "San Francisco",
+            "Tag": null,
+            "SubItems": []
+          },
+          {
+            "Key": "00000000-0000-0000-0000-000000000000",
+            "Value": "Seattle",
+            "ID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Seattle",
+            "Tag": null,
+            "SubItems": []
+          },
+          {
+            "Key": "00000000-0000-0000-0000-000000000000",
+            "Value": "Washington D.C.",
+            "ID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Washington D.C.",
+            "Tag": null,
+            "SubItems": []
+          }
+        ]
+      },
+      {
+        "Key": "00000000-0000-0000-0000-000000000000",
+        "Value": "Secondary",
+        "ID": "00000000-0000-0000-0000-000000000000",
+        "Name": "Secondary",
+        "Tag": null,
+        "SubItems": []
+      },
+      {
+        "Key": "00000000-0000-0000-0000-000000000000",
+        "Value": "Tertiary",
+        "ID": "00000000-0000-0000-0000-000000000000",
+        "Name": "Tertiary",
+        "Tag": null,
+        "SubItems": []
+      }
+    ],
+    "Name": null,
+    "EntityName": "Market"
+  }
+]

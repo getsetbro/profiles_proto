@@ -1,0 +1,1241 @@
+{
+  "Data": [
+    {
+      "Details": {
+        "InvestmentVehicle": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "(N/A)",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "InvestmentVehicleCriteria": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "TotalCapitalRaised": null,
+        "PropertyType": [
+          {
+            "ID": "d8f323a3-3020-dd11-98a3-00188b2e03d9",
+            "Name": "Hotel",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          },
+          {
+            "ID": "23e371cf-3020-dd11-98a3-00188b2e03d9",
+            "Name": "Industrial",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          },
+          {
+            "ID": "7108f7e5-3020-dd11-98a3-00188b2e03d9",
+            "Name": "Multi Family",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          },
+          {
+            "ID": "08c97482-e625-de11-b977-0050569c0cb2",
+            "Name": "NNN",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          },
+          {
+            "ID": "5a1083ff-3020-dd11-98a3-00188b2e03d9",
+            "Name": "Office / Commercial",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          },
+          {
+            "ID": "f2fe8d13-3120-dd11-98a3-00188b2e03d9",
+            "Name": "Residential",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          }
+        ],
+        "PropertySubType": [
+          {
+            "ID": "e4a17779-a606-de11-875b-005056923ec5",
+            "Name": "Office / Commercial - CBD",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          }
+        ],
+        "Region": {
+          "ID": 2,
+          "Name": "AM",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "State": [],
+        "Market": [
+          {
+            "ID": null,
+            "Name": "Florida",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": null
+          },
+          {
+            "ID": null,
+            "Name": " ",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": null
+          }
+        ],
+        "MinimumDealSize": null,
+        "MaximumDealSize": null,
+        "AssetClass": [],
+        "MinimumCapRateTarget": null,
+        "MaximumCapRateTarget": null,
+        "MinimumLeverage": null,
+        "MaximumLeverage": null,
+        "AcquisitionCriteriaID": "f4e4b333-19ac-db11-a017-00188b2e03d9",
+        "PartialInterest": {
+          "ID": null,
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "JV": {
+          "ID": 0,
+          "Name": "No",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "NeedStartDate": null,
+        "NeedEndDate": null,
+        "CompanyContact": {
+          "ID": "044e0ab4-cb9b-db11-a00b-00188b2e03d9",
+          "Name": "Johnson, Eric",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "JLLContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "Harwood, Peter G.",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "Notes": null,
+        "Account": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        }
+      },
+      "ID": "f4e4b333-19ac-db11-a017-00188b2e03d9",
+      "ClientID": null,
+      "IsActive": true
+    },
+    {
+      "Details": {
+        "InvestmentVehicle": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "(N/A)",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "InvestmentVehicleCriteria": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "TotalCapitalRaised": null,
+        "PropertyType": [
+          {
+            "ID": "26317080-3020-dd11-98a3-00188b2e03d9",
+            "Name": "Flex/R&D",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          },
+          {
+            "ID": "5a1083ff-3020-dd11-98a3-00188b2e03d9",
+            "Name": "Office / Commercial",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          },
+          {
+            "ID": "843a8f17-3120-dd11-98a3-00188b2e03d9",
+            "Name": "Retail",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          }
+        ],
+        "PropertySubType": [
+          {
+            "ID": "f7d5563f-3320-dd11-98a3-00188b2e03d9",
+            "Name": "Flex/R&D - Data Center",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          },
+          {
+            "ID": "e4a17779-a606-de11-875b-005056923ec5",
+            "Name": "Office / Commercial - CBD",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          }
+        ],
+        "Region": {
+          "ID": 2,
+          "Name": "AM",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "State": [],
+        "Market": [
+          {
+            "ID": null,
+            "Name": "Los Angeles",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": null
+          },
+          {
+            "ID": null,
+            "Name": " ",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": null
+          }
+        ],
+        "MinimumDealSize": null,
+        "MaximumDealSize": null,
+        "AssetClass": [],
+        "MinimumCapRateTarget": null,
+        "MaximumCapRateTarget": null,
+        "MinimumLeverage": null,
+        "MaximumLeverage": null,
+        "AcquisitionCriteriaID": "d2f204de-b230-dc11-a100-00188b2e03d9",
+        "PartialInterest": {
+          "ID": null,
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "JV": {
+          "ID": 0,
+          "Name": "No",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "NeedStartDate": null,
+        "NeedEndDate": null,
+        "CompanyContact": {
+          "ID": "2eba3d06-d69d-db11-8303-00188b2e03d9",
+          "Name": "Kelley, Brian",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "JLLContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "Harwood, Peter G.",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "Notes": null,
+        "Account": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        }
+      },
+      "ID": "d2f204de-b230-dc11-a100-00188b2e03d9",
+      "ClientID": null,
+      "IsActive": true
+    },
+    {
+      "Details": {
+        "InvestmentVehicle": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "(N/A)",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "InvestmentVehicleCriteria": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "TotalCapitalRaised": null,
+        "PropertyType": [
+          {
+            "ID": "23e371cf-3020-dd11-98a3-00188b2e03d9",
+            "Name": "Industrial",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          },
+          {
+            "ID": "7108f7e5-3020-dd11-98a3-00188b2e03d9",
+            "Name": "Multi Family",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          },
+          {
+            "ID": "5a1083ff-3020-dd11-98a3-00188b2e03d9",
+            "Name": "Office / Commercial",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          },
+          {
+            "ID": "843a8f17-3120-dd11-98a3-00188b2e03d9",
+            "Name": "Retail",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          }
+        ],
+        "PropertySubType": [
+          {
+            "ID": "e4a17779-a606-de11-875b-005056923ec5",
+            "Name": "Office / Commercial - CBD",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          }
+        ],
+        "Region": {
+          "ID": 2,
+          "Name": "AM",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "State": [],
+        "Market": [
+          {
+            "ID": null,
+            "Name": "Los Angeles",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": null
+          },
+          {
+            "ID": null,
+            "Name": " ",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": null
+          }
+        ],
+        "MinimumDealSize": null,
+        "MaximumDealSize": null,
+        "AssetClass": [],
+        "MinimumCapRateTarget": null,
+        "MaximumCapRateTarget": null,
+        "MinimumLeverage": null,
+        "MaximumLeverage": null,
+        "AcquisitionCriteriaID": "04257f40-b730-dc11-a100-00188b2e03d9",
+        "PartialInterest": {
+          "ID": null,
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "JV": {
+          "ID": 0,
+          "Name": "No",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "NeedStartDate": null,
+        "NeedEndDate": null,
+        "CompanyContact": {
+          "ID": "9df4631b-4b9b-db11-b8b5-00188b2e04ee",
+          "Name": "Curran, Robert",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "JLLContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "Administrator, System",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "Notes": null,
+        "Account": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        }
+      },
+      "ID": "04257f40-b730-dc11-a100-00188b2e03d9",
+      "ClientID": null,
+      "IsActive": true
+    },
+    {
+      "Details": {
+        "InvestmentVehicle": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "(N/A)",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "InvestmentVehicleCriteria": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "TotalCapitalRaised": null,
+        "PropertyType": [
+          {
+            "ID": "23e371cf-3020-dd11-98a3-00188b2e03d9",
+            "Name": "Industrial",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          },
+          {
+            "ID": "5a1083ff-3020-dd11-98a3-00188b2e03d9",
+            "Name": "Office / Commercial",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          },
+          {
+            "ID": "843a8f17-3120-dd11-98a3-00188b2e03d9",
+            "Name": "Retail",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          }
+        ],
+        "PropertySubType": [
+          {
+            "ID": "e4a17779-a606-de11-875b-005056923ec5",
+            "Name": "Office / Commercial - CBD",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          }
+        ],
+        "Region": {
+          "ID": 2,
+          "Name": "AM",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "State": [],
+        "Market": [
+          {
+            "ID": null,
+            "Name": "Boston",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": null
+          },
+          {
+            "ID": null,
+            "Name": " Los Angeles",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": null
+          },
+          {
+            "ID": null,
+            "Name": " ",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": null
+          }
+        ],
+        "MinimumDealSize": null,
+        "MaximumDealSize": null,
+        "AssetClass": [],
+        "MinimumCapRateTarget": null,
+        "MaximumCapRateTarget": null,
+        "MinimumLeverage": null,
+        "MaximumLeverage": null,
+        "AcquisitionCriteriaID": "9f61f11d-b830-dc11-a100-00188b2e03d9",
+        "PartialInterest": {
+          "ID": null,
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "JV": {
+          "ID": 0,
+          "Name": "No",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "NeedStartDate": null,
+        "NeedEndDate": null,
+        "CompanyContact": {
+          "ID": "179a1e2e-4c9b-db11-b8b5-00188b2e04ee",
+          "Name": "Propp, Elizabeth",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "JLLContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "Administrator, System",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "Notes": null,
+        "Account": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        }
+      },
+      "ID": "9f61f11d-b830-dc11-a100-00188b2e03d9",
+      "ClientID": null,
+      "IsActive": true
+    },
+    {
+      "Details": {
+        "InvestmentVehicle": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "(N/A)",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "InvestmentVehicleCriteria": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "TotalCapitalRaised": null,
+        "PropertyType": [
+          {
+            "ID": "23e371cf-3020-dd11-98a3-00188b2e03d9",
+            "Name": "Industrial",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          },
+          {
+            "ID": "7108f7e5-3020-dd11-98a3-00188b2e03d9",
+            "Name": "Multi Family",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          },
+          {
+            "ID": "5a1083ff-3020-dd11-98a3-00188b2e03d9",
+            "Name": "Office / Commercial",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          },
+          {
+            "ID": "843a8f17-3120-dd11-98a3-00188b2e03d9",
+            "Name": "Retail",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          }
+        ],
+        "PropertySubType": [
+          {
+            "ID": "e4a17779-a606-de11-875b-005056923ec5",
+            "Name": "Office / Commercial - CBD",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          }
+        ],
+        "Region": {
+          "ID": 2,
+          "Name": "AM",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "State": [],
+        "Market": [
+          {
+            "ID": null,
+            "Name": "Los Angeles",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": null
+          },
+          {
+            "ID": null,
+            "Name": " ",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": null
+          }
+        ],
+        "MinimumDealSize": null,
+        "MaximumDealSize": null,
+        "AssetClass": [],
+        "MinimumCapRateTarget": null,
+        "MaximumCapRateTarget": null,
+        "MinimumLeverage": null,
+        "MaximumLeverage": null,
+        "AcquisitionCriteriaID": "636b0f2f-b930-dc11-a100-00188b2e03d9",
+        "PartialInterest": {
+          "ID": null,
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "JV": {
+          "ID": 0,
+          "Name": "No",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "NeedStartDate": null,
+        "NeedEndDate": null,
+        "CompanyContact": {
+          "ID": "2252edb7-d49d-db11-8303-00188b2e03d9",
+          "Name": "O'Connor, Daniel",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "JLLContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "Administrator, System",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "Notes": null,
+        "Account": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        }
+      },
+      "ID": "636b0f2f-b930-dc11-a100-00188b2e03d9",
+      "ClientID": null,
+      "IsActive": true
+    },
+    {
+      "Details": {
+        "InvestmentVehicle": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "(N/A)",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "InvestmentVehicleCriteria": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "TotalCapitalRaised": null,
+        "PropertyType": [
+          {
+            "ID": "23e371cf-3020-dd11-98a3-00188b2e03d9",
+            "Name": "Industrial",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          },
+          {
+            "ID": "7108f7e5-3020-dd11-98a3-00188b2e03d9",
+            "Name": "Multi Family",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          },
+          {
+            "ID": "5a1083ff-3020-dd11-98a3-00188b2e03d9",
+            "Name": "Office / Commercial",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          }
+        ],
+        "PropertySubType": [
+          {
+            "ID": "e4a17779-a606-de11-875b-005056923ec5",
+            "Name": "Office / Commercial - CBD",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          }
+        ],
+        "Region": {
+          "ID": 2,
+          "Name": "AM",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "State": [],
+        "Market": [
+          {
+            "ID": null,
+            "Name": "Los Angeles",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": null
+          },
+          {
+            "ID": null,
+            "Name": " ",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": null
+          }
+        ],
+        "MinimumDealSize": null,
+        "MaximumDealSize": null,
+        "AssetClass": [],
+        "MinimumCapRateTarget": null,
+        "MaximumCapRateTarget": null,
+        "MinimumLeverage": null,
+        "MaximumLeverage": null,
+        "AcquisitionCriteriaID": "d1cc7a26-c830-dc11-a100-00188b2e03d9",
+        "PartialInterest": {
+          "ID": null,
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "JV": {
+          "ID": 0,
+          "Name": "No",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "NeedStartDate": null,
+        "NeedEndDate": null,
+        "CompanyContact": {
+          "ID": "15a4c559-779b-db11-b8b5-00188b2e04ee",
+          "Name": "Reilly, Peter",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "JLLContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "Harwood, Peter G.",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "Notes": null,
+        "Account": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        }
+      },
+      "ID": "d1cc7a26-c830-dc11-a100-00188b2e03d9",
+      "ClientID": null,
+      "IsActive": true
+    },
+    {
+      "Details": {
+        "InvestmentVehicle": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "(N/A)",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "InvestmentVehicleCriteria": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "TotalCapitalRaised": null,
+        "PropertyType": [],
+        "PropertySubType": [],
+        "Region": {
+          "ID": 3,
+          "Name": "AP",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "State": [],
+        "Market": [],
+        "MinimumDealSize": 20000000.0,
+        "MaximumDealSize": 25000000.0,
+        "AssetClass": [
+          {
+            "ID": 1,
+            "Name": "A+",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": null
+          }
+        ],
+        "MinimumCapRateTarget": null,
+        "MaximumCapRateTarget": null,
+        "MinimumLeverage": null,
+        "MaximumLeverage": null,
+        "AcquisitionCriteriaID": "117a1604-cf7a-435a-94b0-d930516261ef",
+        "PartialInterest": {
+          "ID": 1,
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "JV": {
+          "ID": 0,
+          "Name": "No",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "NeedStartDate": "05/31/2014",
+        "NeedEndDate": "12/30/2014",
+        "CompanyContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "JLLContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "Tan, JasonHL",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "Notes": null,
+        "Account": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        }
+      },
+      "ID": "117a1604-cf7a-435a-94b0-d930516261ef",
+      "ClientID": null,
+      "IsActive": true
+    },
+    {
+      "Details": {
+        "InvestmentVehicle": {
+          "ID": "4231743c-be96-e011-81a3-00505692362f",
+          "Name": "JP Morgan Greater China Property Fund",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "InvestmentVehicleCriteria": {
+          "ID": "cac5b40b-f0e2-e011-929b-00505692362f",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "TotalCapitalRaised": 608000000.0000,
+        "PropertyType": [
+          {
+            "ID": "305b5ea0-e4a5-dd11-ad6d-00188b2e03d9",
+            "Name": "Lab",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          }
+        ],
+        "PropertySubType": [],
+        "Region": {
+          "ID": 2,
+          "Name": "AM",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "State": [],
+        "Market": [],
+        "MinimumDealSize": null,
+        "MaximumDealSize": null,
+        "AssetClass": [],
+        "MinimumCapRateTarget": null,
+        "MaximumCapRateTarget": null,
+        "MinimumLeverage": null,
+        "MaximumLeverage": null,
+        "AcquisitionCriteriaID": "a06e757e-aacb-4018-a21c-e7d788dfb5f8",
+        "PartialInterest": {
+          "ID": null,
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "JV": {
+          "ID": 0,
+          "Name": "No",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "NeedStartDate": "09/15/2011",
+        "NeedEndDate": "09/15/2011",
+        "CompanyContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "JLLContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "Prater, Annette",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "Notes": null,
+        "Account": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        }
+      },
+      "ID": "a06e757e-aacb-4018-a21c-e7d788dfb5f8",
+      "ClientID": null,
+      "IsActive": true
+    },
+    {
+      "Details": {
+        "InvestmentVehicle": {
+          "ID": "4231743c-be96-e011-81a3-00505692362f",
+          "Name": "JP Morgan Greater China Property Fund",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "InvestmentVehicleCriteria": {
+          "ID": "c7c5b40b-f0e2-e011-929b-00505692362f",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "TotalCapitalRaised": 608000000.0000,
+        "PropertyType": [
+          {
+            "ID": "305b5ea0-e4a5-dd11-ad6d-00188b2e03d9",
+            "Name": "Lab",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          }
+        ],
+        "PropertySubType": [],
+        "Region": {
+          "ID": 2,
+          "Name": "AM",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "State": [],
+        "Market": [],
+        "MinimumDealSize": null,
+        "MaximumDealSize": null,
+        "AssetClass": [],
+        "MinimumCapRateTarget": null,
+        "MaximumCapRateTarget": null,
+        "MinimumLeverage": null,
+        "MaximumLeverage": null,
+        "AcquisitionCriteriaID": "a72d8316-1a83-4b2c-b15f-0ba3fd2ab50a",
+        "PartialInterest": {
+          "ID": null,
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "JV": {
+          "ID": 0,
+          "Name": "No",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "NeedStartDate": "09/15/2011",
+        "NeedEndDate": "09/15/2011",
+        "CompanyContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "JLLContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "Licudine, Ryan",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "Notes": null,
+        "Account": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        }
+      },
+      "ID": "a72d8316-1a83-4b2c-b15f-0ba3fd2ab50a",
+      "ClientID": null,
+      "IsActive": true
+    },
+    {
+      "Details": {
+        "InvestmentVehicle": {
+          "ID": "5a23818e-be96-e011-81a3-00505692362f",
+          "Name": "JP Morgan US Opportunistic Property Fund",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "InvestmentVehicleCriteria": {
+          "ID": "96fcd9fc-8997-e011-9dfb-005056927f52",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "TotalCapitalRaised": 750000000.0000,
+        "PropertyType": [
+          {
+            "ID": "5a1083ff-3020-dd11-98a3-00188b2e03d9",
+            "Name": "Office / Commercial",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          },
+          {
+            "ID": "23e371cf-3020-dd11-98a3-00188b2e03d9",
+            "Name": "Industrial",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          }
+        ],
+        "PropertySubType": [],
+        "Region": {
+          "ID": 2,
+          "Name": "AM",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "State": [],
+        "Market": [],
+        "MinimumDealSize": null,
+        "MaximumDealSize": null,
+        "AssetClass": [],
+        "MinimumCapRateTarget": null,
+        "MaximumCapRateTarget": null,
+        "MinimumLeverage": null,
+        "MaximumLeverage": null,
+        "AcquisitionCriteriaID": "125251f5-e9aa-4bc5-867c-ce316ce5e1e0",
+        "PartialInterest": {
+          "ID": null,
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "JV": {
+          "ID": 0,
+          "Name": "No",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "NeedStartDate": null,
+        "NeedEndDate": null,
+        "CompanyContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "JLLContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "Harwood, Peter G.",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "Notes": null,
+        "Account": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        }
+      },
+      "ID": "125251f5-e9aa-4bc5-867c-ce316ce5e1e0",
+      "ClientID": null,
+      "IsActive": true
+    }
+  ],
+  "FromIndex": 1,
+  "ToIndex": 40,
+  "TotalRecords": 10,
+  "SortBy": null,
+  "Direction": null
+}

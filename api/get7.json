@@ -1,0 +1,1788 @@
+{
+  "Data": [
+    {
+      "Details": {
+        "InvestmentVehicle": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "(N/A)",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "InvestmentVehicleCriteria": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "LenderType": null,
+        "CurrentYearAllocation": null,
+        "CapitalStackRequirements": [],
+        "ConstructionDevelopment": {
+          "ID": 0,
+          "Name": "No",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "MinimumDealSize": null,
+        "MaximumDealSize": 100000.0000,
+        "LoanToValueMax": null,
+        "Recourse": {
+          "ID": null,
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "Notes": null,
+        "NoteEnteredBy": null,
+        "Market": [],
+        "PropertyType": [],
+        "AssetClass": [],
+        "LenderProfileID": "66d9db6e-4539-dc11-9f3b-00188b2e03d9",
+        "LenderContact": {
+          "ID": "354e1a12-cd15-dc11-aa8d-00188b2e03d9",
+          "Name": "Graham, David",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "JLLContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "Prater, Annette",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "Account": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        }
+      },
+      "ID": "66d9db6e-4539-dc11-9f3b-00188b2e03d9",
+      "ClientID": null,
+      "IsActive": true
+    },
+    {
+      "Details": {
+        "InvestmentVehicle": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "(N/A)",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "InvestmentVehicleCriteria": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "LenderType": null,
+        "CurrentYearAllocation": null,
+        "CapitalStackRequirements": [],
+        "ConstructionDevelopment": {
+          "ID": 0,
+          "Name": "No",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "MinimumDealSize": null,
+        "MaximumDealSize": null,
+        "LoanToValueMax": null,
+        "Recourse": {
+          "ID": null,
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "Notes": null,
+        "NoteEnteredBy": null,
+        "Market": [],
+        "PropertyType": [],
+        "AssetClass": [],
+        "LenderProfileID": "5a272296-4539-dc11-9f3b-00188b2e03d9",
+        "LenderContact": {
+          "ID": "ab095376-f50d-dc11-b07e-00188b2e03d9",
+          "Name": "Kravitz, Daniel",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "JLLContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "Administrator, System",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "Account": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        }
+      },
+      "ID": "5a272296-4539-dc11-9f3b-00188b2e03d9",
+      "ClientID": null,
+      "IsActive": true
+    },
+    {
+      "Details": {
+        "InvestmentVehicle": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "(N/A)",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "InvestmentVehicleCriteria": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "LenderType": null,
+        "CurrentYearAllocation": null,
+        "CapitalStackRequirements": [],
+        "ConstructionDevelopment": {
+          "ID": 1,
+          "Name": "Yes",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "MinimumDealSize": null,
+        "MaximumDealSize": null,
+        "LoanToValueMax": null,
+        "Recourse": {
+          "ID": null,
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "Notes": null,
+        "NoteEnteredBy": null,
+        "Market": [],
+        "PropertyType": [],
+        "AssetClass": [],
+        "LenderProfileID": "760dd097-a03b-dc11-9f3b-00188b2e03d9",
+        "LenderContact": {
+          "ID": "5fb74f91-e6f9-dc11-9b96-00188b2e03d9",
+          "Name": "Melind, Michael",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "JLLContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "Administrator, System",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "Account": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        }
+      },
+      "ID": "760dd097-a03b-dc11-9f3b-00188b2e03d9",
+      "ClientID": null,
+      "IsActive": true
+    },
+    {
+      "Details": {
+        "InvestmentVehicle": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "(N/A)",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "InvestmentVehicleCriteria": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "LenderType": null,
+        "CurrentYearAllocation": null,
+        "CapitalStackRequirements": [],
+        "ConstructionDevelopment": {
+          "ID": 1,
+          "Name": "Yes",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "MinimumDealSize": null,
+        "MaximumDealSize": null,
+        "LoanToValueMax": null,
+        "Recourse": {
+          "ID": null,
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "Notes": null,
+        "NoteEnteredBy": null,
+        "Market": [],
+        "PropertyType": [],
+        "AssetClass": [],
+        "LenderProfileID": "442cc232-b830-dc11-a100-00188b2e03d9",
+        "LenderContact": {
+          "ID": "28f30196-d49d-db11-8303-00188b2e03d9",
+          "Name": "Wood, David",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "JLLContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "Barone, Scott",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "Account": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        }
+      },
+      "ID": "442cc232-b830-dc11-a100-00188b2e03d9",
+      "ClientID": null,
+      "IsActive": true
+    },
+    {
+      "Details": {
+        "InvestmentVehicle": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "(N/A)",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "InvestmentVehicleCriteria": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "LenderType": null,
+        "CurrentYearAllocation": null,
+        "CapitalStackRequirements": [],
+        "ConstructionDevelopment": {
+          "ID": 0,
+          "Name": "No",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "MinimumDealSize": null,
+        "MaximumDealSize": null,
+        "LoanToValueMax": null,
+        "Recourse": {
+          "ID": null,
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "Notes": null,
+        "NoteEnteredBy": null,
+        "Market": [],
+        "PropertyType": [],
+        "AssetClass": [],
+        "LenderProfileID": "4d9eff38-b830-dc11-a100-00188b2e03d9",
+        "LenderContact": {
+          "ID": "a15bd505-a12e-dc11-a100-00188b2e03d9",
+          "Name": "Bachenheimer, Mike",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "JLLContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "Administrator, System",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "Account": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        }
+      },
+      "ID": "4d9eff38-b830-dc11-a100-00188b2e03d9",
+      "ClientID": null,
+      "IsActive": true
+    },
+    {
+      "Details": {
+        "InvestmentVehicle": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "(N/A)",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "InvestmentVehicleCriteria": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "LenderType": null,
+        "CurrentYearAllocation": null,
+        "CapitalStackRequirements": [],
+        "ConstructionDevelopment": {
+          "ID": 0,
+          "Name": "No",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "MinimumDealSize": null,
+        "MaximumDealSize": null,
+        "LoanToValueMax": null,
+        "Recourse": {
+          "ID": null,
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "Notes": null,
+        "NoteEnteredBy": null,
+        "Market": [],
+        "PropertyType": [],
+        "AssetClass": [],
+        "LenderProfileID": "6e474a4b-b830-dc11-a100-00188b2e03d9",
+        "LenderContact": {
+          "ID": "8d226e22-a72e-dc11-a100-00188b2e03d9",
+          "Name": "Paris, Michael",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "JLLContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "Barone, Scott",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "Account": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        }
+      },
+      "ID": "6e474a4b-b830-dc11-a100-00188b2e03d9",
+      "ClientID": null,
+      "IsActive": true
+    },
+    {
+      "Details": {
+        "InvestmentVehicle": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "(N/A)",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "InvestmentVehicleCriteria": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "LenderType": null,
+        "CurrentYearAllocation": null,
+        "CapitalStackRequirements": [],
+        "ConstructionDevelopment": {
+          "ID": 0,
+          "Name": "No",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "MinimumDealSize": null,
+        "MaximumDealSize": null,
+        "LoanToValueMax": null,
+        "Recourse": {
+          "ID": null,
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "Notes": null,
+        "NoteEnteredBy": null,
+        "Market": [],
+        "PropertyType": [],
+        "AssetClass": [],
+        "LenderProfileID": "b2d16f12-c4b2-db11-a83c-00188b2e03d9",
+        "LenderContact": {
+          "ID": "afd16f12-c4b2-db11-a83c-00188b2e03d9",
+          "Name": "Phillip, James",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "JLLContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "Barone, Scott",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "Account": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        }
+      },
+      "ID": "b2d16f12-c4b2-db11-a83c-00188b2e03d9",
+      "ClientID": null,
+      "IsActive": true
+    },
+    {
+      "Details": {
+        "InvestmentVehicle": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "(N/A)",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "InvestmentVehicleCriteria": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "LenderType": null,
+        "CurrentYearAllocation": null,
+        "CapitalStackRequirements": [],
+        "ConstructionDevelopment": {
+          "ID": 0,
+          "Name": "No",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "MinimumDealSize": null,
+        "MaximumDealSize": null,
+        "LoanToValueMax": null,
+        "Recourse": {
+          "ID": null,
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "Notes": null,
+        "NoteEnteredBy": null,
+        "Market": [],
+        "PropertyType": [],
+        "AssetClass": [],
+        "LenderProfileID": "b6d16f12-c4b2-db11-a83c-00188b2e03d9",
+        "LenderContact": {
+          "ID": "b3d16f12-c4b2-db11-a83c-00188b2e03d9",
+          "Name": "Schillig, Kevin",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "JLLContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "Barone, Scott",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "Account": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        }
+      },
+      "ID": "b6d16f12-c4b2-db11-a83c-00188b2e03d9",
+      "ClientID": null,
+      "IsActive": true
+    },
+    {
+      "Details": {
+        "InvestmentVehicle": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "(N/A)",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "InvestmentVehicleCriteria": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "LenderType": null,
+        "CurrentYearAllocation": null,
+        "CapitalStackRequirements": [],
+        "ConstructionDevelopment": {
+          "ID": 0,
+          "Name": "No",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "MinimumDealSize": null,
+        "MaximumDealSize": null,
+        "LoanToValueMax": null,
+        "Recourse": {
+          "ID": null,
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "Notes": null,
+        "NoteEnteredBy": null,
+        "Market": [],
+        "PropertyType": [],
+        "AssetClass": [],
+        "LenderProfileID": "009b151f-c4b2-db11-a83c-00188b2e03d9",
+        "LenderContact": {
+          "ID": "fd9a151f-c4b2-db11-a83c-00188b2e03d9",
+          "Name": "Lawrence, Robert",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "JLLContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "Administrator, System",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "Account": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        }
+      },
+      "ID": "009b151f-c4b2-db11-a83c-00188b2e03d9",
+      "ClientID": null,
+      "IsActive": true
+    },
+    {
+      "Details": {
+        "InvestmentVehicle": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "(N/A)",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "InvestmentVehicleCriteria": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "LenderType": null,
+        "CurrentYearAllocation": null,
+        "CapitalStackRequirements": [],
+        "ConstructionDevelopment": {
+          "ID": 0,
+          "Name": "No",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "MinimumDealSize": null,
+        "MaximumDealSize": null,
+        "LoanToValueMax": null,
+        "Recourse": {
+          "ID": null,
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "Notes": null,
+        "NoteEnteredBy": null,
+        "Market": [],
+        "PropertyType": [],
+        "AssetClass": [],
+        "LenderProfileID": "089b151f-c4b2-db11-a83c-00188b2e03d9",
+        "LenderContact": {
+          "ID": "9700a056-b99b-db11-a00b-00188b2e03d9",
+          "Name": "Taschler, Jeffrey",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "JLLContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "Administrator, System",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "Account": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        }
+      },
+      "ID": "089b151f-c4b2-db11-a83c-00188b2e03d9",
+      "ClientID": null,
+      "IsActive": true
+    },
+    {
+      "Details": {
+        "InvestmentVehicle": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "(N/A)",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "InvestmentVehicleCriteria": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "LenderType": null,
+        "CurrentYearAllocation": null,
+        "CapitalStackRequirements": [],
+        "ConstructionDevelopment": {
+          "ID": 0,
+          "Name": "No",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "MinimumDealSize": null,
+        "MaximumDealSize": null,
+        "LoanToValueMax": null,
+        "Recourse": {
+          "ID": null,
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "Notes": null,
+        "NoteEnteredBy": null,
+        "Market": [],
+        "PropertyType": [],
+        "AssetClass": [],
+        "LenderProfileID": "92b3133e-c5b2-db11-a83c-00188b2e03d9",
+        "LenderContact": {
+          "ID": "8fb3133e-c5b2-db11-a83c-00188b2e03d9",
+          "Name": "Goodfellow, Megan",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "JLLContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "Administrator, System",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "Account": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        }
+      },
+      "ID": "92b3133e-c5b2-db11-a83c-00188b2e03d9",
+      "ClientID": null,
+      "IsActive": true
+    },
+    {
+      "Details": {
+        "InvestmentVehicle": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "(N/A)",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "InvestmentVehicleCriteria": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "LenderType": null,
+        "CurrentYearAllocation": null,
+        "CapitalStackRequirements": [],
+        "ConstructionDevelopment": {
+          "ID": 0,
+          "Name": "No",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "MinimumDealSize": null,
+        "MaximumDealSize": null,
+        "LoanToValueMax": null,
+        "Recourse": {
+          "ID": null,
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "Notes": null,
+        "NoteEnteredBy": null,
+        "Market": [],
+        "PropertyType": [],
+        "AssetClass": [],
+        "LenderProfileID": "e2e83644-c5b2-db11-a83c-00188b2e03d9",
+        "LenderContact": {
+          "ID": "93b3133e-c5b2-db11-a83c-00188b2e03d9",
+          "Name": "Heath, Scott",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "JLLContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "Administrator, System",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "Account": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        }
+      },
+      "ID": "e2e83644-c5b2-db11-a83c-00188b2e03d9",
+      "ClientID": null,
+      "IsActive": true
+    },
+    {
+      "Details": {
+        "InvestmentVehicle": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "(N/A)",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "InvestmentVehicleCriteria": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "LenderType": null,
+        "CurrentYearAllocation": null,
+        "CapitalStackRequirements": [
+          {
+            "ID": "00000000-0000-0000-0000-000000000000",
+            "Name": "JV Equity",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          },
+          {
+            "ID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Mezzanine",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          }
+        ],
+        "ConstructionDevelopment": {
+          "ID": 0,
+          "Name": "No",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "MinimumDealSize": 100.0000,
+        "MaximumDealSize": 200.0000,
+        "LoanToValueMax": 125.00,
+        "Recourse": {
+          "ID": 2,
+          "Name": "None",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "Notes": null,
+        "NoteEnteredBy": null,
+        "Market": [
+          {
+            "ID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Secondary",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": null,
+            "IsActive": false
+          }
+        ],
+        "PropertyType": [],
+        "AssetClass": [],
+        "LenderProfileID": "48449433-58de-4587-a04f-2a7400f0d51e",
+        "LenderContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "JLLContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "Patel, Sanjay",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "Account": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        }
+      },
+      "ID": "48449433-58de-4587-a04f-2a7400f0d51e",
+      "ClientID": null,
+      "IsActive": true
+    },
+    {
+      "Details": {
+        "InvestmentVehicle": {
+          "ID": "9cb85108-b63b-e111-bf23-005056927f52",
+          "Name": "Income & Growth Fund",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "InvestmentVehicleCriteria": {
+          "ID": "0f272c0c-2b9f-e311-8760-00505692010a",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "LenderType": null,
+        "CurrentYearAllocation": null,
+        "CapitalStackRequirements": [],
+        "ConstructionDevelopment": {
+          "ID": 0,
+          "Name": "No",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "MinimumDealSize": 0.0000,
+        "MaximumDealSize": 0.0000,
+        "LoanToValueMax": 0.00,
+        "Recourse": {
+          "ID": null,
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "Notes": null,
+        "NoteEnteredBy": null,
+        "Market": [],
+        "PropertyType": [],
+        "AssetClass": [],
+        "LenderProfileID": "5e1567b6-2579-4497-82ee-2bcaa76ff76f",
+        "LenderContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "JLLContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "Fryer, Pam",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "Account": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        }
+      },
+      "ID": "5e1567b6-2579-4497-82ee-2bcaa76ff76f",
+      "ClientID": null,
+      "IsActive": true
+    },
+    {
+      "Details": {
+        "InvestmentVehicle": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "(N/A)",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "InvestmentVehicleCriteria": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "LenderType": null,
+        "CurrentYearAllocation": null,
+        "CapitalStackRequirements": [],
+        "ConstructionDevelopment": {
+          "ID": 0,
+          "Name": "No",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "MinimumDealSize": 10000000.0000,
+        "MaximumDealSize": 20000000.0000,
+        "LoanToValueMax": 30.00,
+        "Recourse": {
+          "ID": 1,
+          "Name": "Full",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "Notes": null,
+        "NoteEnteredBy": null,
+        "Market": [
+          {
+            "ID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Secondary",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": null,
+            "IsActive": false
+          }
+        ],
+        "PropertyType": [],
+        "AssetClass": [
+          {
+            "ID": 1,
+            "Name": "A+",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": null
+          }
+        ],
+        "LenderProfileID": "239442b3-5116-408f-95b0-3de0aeeaaa5e",
+        "LenderContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "JLLContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "Tan, JasonHL",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "Account": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        }
+      },
+      "ID": "239442b3-5116-408f-95b0-3de0aeeaaa5e",
+      "ClientID": null,
+      "IsActive": true
+    },
+    {
+      "Details": {
+        "InvestmentVehicle": {
+          "ID": "4231743c-be96-e011-81a3-00505692362f",
+          "Name": "JP Morgan Greater China Property Fund",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "InvestmentVehicleCriteria": {
+          "ID": "7ffd7a34-09a6-e311-8760-00505692010a",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "LenderType": null,
+        "CurrentYearAllocation": 608000000.0000,
+        "CapitalStackRequirements": [],
+        "ConstructionDevelopment": {
+          "ID": 0,
+          "Name": "No",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "MinimumDealSize": 1000000.0000,
+        "MaximumDealSize": 100000000.0000,
+        "LoanToValueMax": 0.00,
+        "Recourse": {
+          "ID": 2,
+          "Name": "None",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "Notes": "WILL THIS WORK?",
+        "NoteEnteredBy": null,
+        "Market": [
+          {
+            "ID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Primary",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [
+              {
+                "ID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Atlanta",
+                "EntityName": null,
+                "IsNull": false,
+                "SubItems": null,
+                "IsActive": false
+              },
+              {
+                "ID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Austin",
+                "EntityName": null,
+                "IsNull": false,
+                "SubItems": null,
+                "IsActive": false
+              },
+              {
+                "ID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Boston",
+                "EntityName": null,
+                "IsNull": false,
+                "SubItems": null,
+                "IsActive": false
+              },
+              {
+                "ID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Chicago",
+                "EntityName": null,
+                "IsNull": false,
+                "SubItems": null,
+                "IsActive": false
+              },
+              {
+                "ID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Dallas",
+                "EntityName": null,
+                "IsNull": false,
+                "SubItems": null,
+                "IsActive": false
+              },
+              {
+                "ID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Florida",
+                "EntityName": null,
+                "IsNull": false,
+                "SubItems": null,
+                "IsActive": false
+              },
+              {
+                "ID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Los Angeles",
+                "EntityName": null,
+                "IsNull": false,
+                "SubItems": null,
+                "IsActive": false
+              },
+              {
+                "ID": "00000000-0000-0000-0000-000000000000",
+                "Name": "New York",
+                "EntityName": null,
+                "IsNull": false,
+                "SubItems": null,
+                "IsActive": false
+              },
+              {
+                "ID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Orange County",
+                "EntityName": null,
+                "IsNull": false,
+                "SubItems": null,
+                "IsActive": false
+              },
+              {
+                "ID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Phoenix",
+                "EntityName": null,
+                "IsNull": false,
+                "SubItems": null,
+                "IsActive": false
+              },
+              {
+                "ID": "00000000-0000-0000-0000-000000000000",
+                "Name": "San Antonio",
+                "EntityName": null,
+                "IsNull": false,
+                "SubItems": null,
+                "IsActive": false
+              },
+              {
+                "ID": "00000000-0000-0000-0000-000000000000",
+                "Name": "San Diego",
+                "EntityName": null,
+                "IsNull": false,
+                "SubItems": null,
+                "IsActive": false
+              },
+              {
+                "ID": "00000000-0000-0000-0000-000000000000",
+                "Name": "San Francisco",
+                "EntityName": null,
+                "IsNull": false,
+                "SubItems": null,
+                "IsActive": false
+              },
+              {
+                "ID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Washington D.C.",
+                "EntityName": null,
+                "IsNull": false,
+                "SubItems": null,
+                "IsActive": false
+              },
+              {
+                "ID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Baltimore",
+                "EntityName": null,
+                "IsNull": false,
+                "SubItems": null,
+                "IsActive": false
+              },
+              {
+                "ID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Houston",
+                "EntityName": null,
+                "IsNull": false,
+                "SubItems": null,
+                "IsActive": false
+              },
+              {
+                "ID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Inland Empire",
+                "EntityName": null,
+                "IsNull": false,
+                "SubItems": null,
+                "IsActive": false
+              },
+              {
+                "ID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Miami",
+                "EntityName": null,
+                "IsNull": false,
+                "SubItems": null,
+                "IsActive": false
+              },
+              {
+                "ID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Minneapolis",
+                "EntityName": null,
+                "IsNull": false,
+                "SubItems": null,
+                "IsActive": false
+              },
+              {
+                "ID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Philadelphia",
+                "EntityName": null,
+                "IsNull": false,
+                "SubItems": null,
+                "IsActive": false
+              },
+              {
+                "ID": "00000000-0000-0000-0000-000000000000",
+                "Name": "Seattle",
+                "EntityName": null,
+                "IsNull": false,
+                "SubItems": null,
+                "IsActive": false
+              }
+            ],
+            "IsActive": false
+          },
+          {
+            "ID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Secondary",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": null,
+            "IsActive": false
+          },
+          {
+            "ID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Tertiary",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": null,
+            "IsActive": false
+          }
+        ],
+        "PropertyType": [
+          {
+            "ID": "e479eb76-3020-dd11-98a3-00188b2e03d9",
+            "Name": "Development",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          },
+          {
+            "ID": "26317080-3020-dd11-98a3-00188b2e03d9",
+            "Name": "Flex/R&D",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          },
+          {
+            "ID": "d8f323a3-3020-dd11-98a3-00188b2e03d9",
+            "Name": "Hotel",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          },
+          {
+            "ID": "23e371cf-3020-dd11-98a3-00188b2e03d9",
+            "Name": "Industrial",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          }
+        ],
+        "AssetClass": [
+          {
+            "ID": 1,
+            "Name": "A+",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": null
+          },
+          {
+            "ID": 4,
+            "Name": "B",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": null
+          },
+          {
+            "ID": 3,
+            "Name": "B+",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": null
+          }
+        ],
+        "LenderProfileID": "41a5115f-9208-4f98-970d-3f84e509460f",
+        "LenderContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "JLLContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "Trick, Susan",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "Account": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        }
+      },
+      "ID": "41a5115f-9208-4f98-970d-3f84e509460f",
+      "ClientID": null,
+      "IsActive": true
+    },
+    {
+      "Details": {
+        "InvestmentVehicle": {
+          "ID": "1e0e3355-be96-e011-81a3-00505692362f",
+          "Name": "JP Morgan Greater Europe Opportunistic Fund",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "InvestmentVehicleCriteria": {
+          "ID": "2628e007-5ca5-e311-8760-00505692010a",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "LenderType": null,
+        "CurrentYearAllocation": 245200000.0000,
+        "CapitalStackRequirements": [
+          {
+            "ID": "00000000-0000-0000-0000-000000000000",
+            "Name": "JV Equity",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          }
+        ],
+        "ConstructionDevelopment": {
+          "ID": 0,
+          "Name": "No",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "MinimumDealSize": 0.0000,
+        "MaximumDealSize": 0.0000,
+        "LoanToValueMax": 0.00,
+        "Recourse": {
+          "ID": null,
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "Notes": null,
+        "NoteEnteredBy": null,
+        "Market": [],
+        "PropertyType": [],
+        "AssetClass": [],
+        "LenderProfileID": "d7634807-9b97-4b6e-b80c-55dbc2b0b657",
+        "LenderContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "JLLContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "Marine, Joshua",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "Account": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        }
+      },
+      "ID": "d7634807-9b97-4b6e-b80c-55dbc2b0b657",
+      "ClientID": null,
+      "IsActive": true
+    },
+    {
+      "Details": {
+        "InvestmentVehicle": {
+          "ID": "9cb85108-b63b-e111-bf23-005056927f52",
+          "Name": "Income & Growth Fund",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "InvestmentVehicleCriteria": {
+          "ID": "2528e007-5ca5-e311-8760-00505692010a",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "LenderType": null,
+        "CurrentYearAllocation": null,
+        "CapitalStackRequirements": [
+          {
+            "ID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Mezzanine",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          }
+        ],
+        "ConstructionDevelopment": {
+          "ID": 0,
+          "Name": "No",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "MinimumDealSize": 0.0000,
+        "MaximumDealSize": 0.0000,
+        "LoanToValueMax": 0.00,
+        "Recourse": {
+          "ID": null,
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "Notes": null,
+        "NoteEnteredBy": null,
+        "Market": [],
+        "PropertyType": [],
+        "AssetClass": [],
+        "LenderProfileID": "9712e233-a8a0-47ab-8133-583ac590734f",
+        "LenderContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "JLLContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "Marine, Joshua",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "Account": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        }
+      },
+      "ID": "9712e233-a8a0-47ab-8133-583ac590734f",
+      "ClientID": null,
+      "IsActive": true
+    },
+    {
+      "Details": {
+        "InvestmentVehicle": {
+          "ID": "f2d82d73-be96-e011-81a3-00505692362f",
+          "Name": "JP Morgan Urban Renaissance Property Fund",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "InvestmentVehicleCriteria": {
+          "ID": "12a1766a-78a4-e311-8760-00505692010a",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "LenderType": null,
+        "CurrentYearAllocation": 181500000.0000,
+        "CapitalStackRequirements": [],
+        "ConstructionDevelopment": {
+          "ID": 1,
+          "Name": "Yes",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "MinimumDealSize": 0.0000,
+        "MaximumDealSize": 0.0000,
+        "LoanToValueMax": 0.00,
+        "Recourse": {
+          "ID": null,
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "Notes": null,
+        "NoteEnteredBy": null,
+        "Market": [],
+        "PropertyType": [],
+        "AssetClass": [],
+        "LenderProfileID": "4e80e723-1cb4-4343-9e36-ab4d4dce9b61",
+        "LenderContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "JLLContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "McDermott, Carl",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "Account": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        }
+      },
+      "ID": "4e80e723-1cb4-4343-9e36-ab4d4dce9b61",
+      "ClientID": null,
+      "IsActive": true
+    },
+    {
+      "Details": {
+        "InvestmentVehicle": {
+          "ID": "9cb85108-b63b-e111-bf23-005056927f52",
+          "Name": "Income & Growth Fund",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "InvestmentVehicleCriteria": {
+          "ID": "b1bf8c88-c6a3-e311-8760-00505692010a",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "LenderType": null,
+        "CurrentYearAllocation": null,
+        "CapitalStackRequirements": [
+          {
+            "ID": "00000000-0000-0000-0000-000000000000",
+            "Name": "Junior Debt",
+            "EntityName": null,
+            "IsNull": false,
+            "SubItems": [],
+            "IsActive": false
+          }
+        ],
+        "ConstructionDevelopment": {
+          "ID": 0,
+          "Name": "No",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "MinimumDealSize": 500.0000,
+        "MaximumDealSize": 0.0000,
+        "LoanToValueMax": 0.00,
+        "Recourse": {
+          "ID": null,
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": null
+        },
+        "Notes": null,
+        "NoteEnteredBy": null,
+        "Market": [],
+        "PropertyType": [],
+        "AssetClass": [],
+        "LenderProfileID": "dcbcdb1b-5515-4f65-ae66-c791200b3109",
+        "LenderContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "JLLContact": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": "Marine, Joshua",
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        },
+        "Account": {
+          "ID": "00000000-0000-0000-0000-000000000000",
+          "Name": null,
+          "EntityName": null,
+          "IsNull": false,
+          "SubItems": [],
+          "IsActive": false
+        }
+      },
+      "ID": "dcbcdb1b-5515-4f65-ae66-c791200b3109",
+      "ClientID": null,
+      "IsActive": true
+    }
+  ],
+  "FromIndex": 1,
+  "ToIndex": 40,
+  "TotalRecords": 20,
+  "SortBy": null,
+  "Direction": null
+}
