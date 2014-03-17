@@ -66,8 +66,18 @@ position: relative;
 margin: 10px;
 padding: 29px 10px 10px;
 background-color: #fff;
-border: 1px solid #aaa;
+border: 1px solid #bbb;
 border-radius: 4px;
+}
+
+.row-fluid .area-well {
+margin: 0 0 10px
+}
+.row-fluid > [class*="span"]:first-child .area-well{
+margin-left:10px;
+}
+.row-fluid > [class*="span"]:last-child .area-well{
+margin-right:10px;
 }
 .legend {
 position: absolute;
@@ -77,7 +87,7 @@ padding: 3px 7px;
 font-size: 12px;
 font-weight: bold;
 background-color: #f5f5f5;
-border: 1px solid #aaa;
+border: 1px solid #bbb;
 color: #9da0a4;
 border-radius: 4px 0 4px 0;
 }
@@ -90,4 +100,7 @@ border-radius: 4px 0 4px 0;
 }
 select[multiple]{
   height: 210px;
+}
+.controls input{
+  width:90%;
 }
