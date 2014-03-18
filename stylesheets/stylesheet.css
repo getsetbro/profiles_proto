@@ -102,7 +102,7 @@ border-radius: 4px 0 4px 0;
   margin-left: 10px;
 }
 .tall-select[multiple]{
-  height: 265px;
+  height: 212px;
 }
 select{
   max-width:100%;
@@ -132,3 +132,7 @@ label.showon input, label.showon-owner input{
 }
 
 
+.well {
+padding: 10px;
+margin-bottom: 0
+}

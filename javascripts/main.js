@@ -1,46 +1,49 @@
 var app = (function() {
-  "use strict";
+    "use strict";
 
-  var $bdy = $(document.body);
+    var $bdy = $(document.body);
 
-  var $cat_chx = $('[name="cat-x"]');
-  var $cat_rdo = $('[name="cat-y"]');
+    var $cat_chx = $('[name="cat-x"]');
+    var $cat_rdo = $('[name="cat-y"]');
 
-  var $debt =    $('#debt');
-  var $str_fin = $('#str_fin');
-  var $owner =   $('#owner');
+    var $debt = $('#debt');
+    var $str_fin = $('#str_fin');
+    var $owner = $('#owner');
 
-  //category select changes
-  $cat_chx.change(function(e) {
-    if(e.target.checked){
-      $cat_rdo.prop("checked", false);
-      $bdy.addClass(e.target.id);
-      $bdy.removeClass('owner');
-    }else{
-      $bdy.removeClass(e.target.id);
-      if( !$bdy.prop('class') ){
-        $cat_rdo.click();
-      }
-    }
-  });
+    //category select changes
+    $cat_chx.change(function(e) {
+        if (e.target.checked) {
+            $cat_rdo.prop("checked", false);
+            $bdy.addClass(e.target.id);
+            $bdy.removeClass('owner');
+        } else {
+            $bdy.removeClass(e.target.id);
+            if (!$bdy.prop('class')) {
+                $cat_rdo.click();
+            }
+        }
+    });
+    $cat_rdo.change(function(e) {
+        $cat_chx.prop("checked", false);
+        $bdy.attr("class", 'owner');
 
-  $cat_rdo.change(function(e) {
-    $cat_chx.prop("checked", false);
-    $bdy.attr("class", 'owner');
+    });
 
-  });
+    $(".tall-select").click(function(e) {
+        if ($(e.target).is('option')) {
+            return;
+        }
+        if ($(e.target).is('optgroup')) {
+            $(e.target).children().attr('selected', 'selected');
+        }
+    });
 
-
-$("select").click(function(e) {
-   if ( $(e.target).is('option') ){
-    return;
-   }
-   if ( $(e.target).is('optgroup') ){
-     $(e.target).children().attr('selected','selected');
-   }
-
+$('[name="geo"]').change(function (e) {
+  var thisprop = $(this).data('show');
+  $('.geo-dd').hide().filter('#'+thisprop).show();
 });
-  return {
-    a: 0
-  };
+
+    return {
+        a: 0
+    };
 })();
