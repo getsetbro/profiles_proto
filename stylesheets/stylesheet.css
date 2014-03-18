@@ -68,17 +68,20 @@ padding: 29px 10px 10px;
 background-color: #fff;
 border: 1px solid #bbb;
 border-radius: 4px;
+width:auto;
+}
+.row-well{
+  width: auto;
+  padding:0 10px;
+}
+.row-fluid .span-well{
+position: relative;
+padding: 29px 10px 10px;
+background-color: #fff;
+border: 1px solid #bbb;
+border-radius: 4px;
 }
 
-.row-fluid .area-well {
-margin: 0 0 10px
-}
-.row-fluid > [class*="span"]:first-child .area-well{
-margin-left:10px;
-}
-.row-fluid > [class*="span"]:last-child .area-well{
-margin-right:10px;
-}
 .legend {
 position: absolute;
 top: -1px;
