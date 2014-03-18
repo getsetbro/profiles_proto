@@ -29,14 +29,14 @@ var app = (function() {
 
     });
 
-    $(".tall-select").click(function(e) {
-        if ($(e.target).is('option')) {
-            return;
-        }
-        if ($(e.target).is('optgroup')) {
-            $(e.target).children().attr('selected', 'selected');
-        }
-    });
+    // $(".tall-select").click(function(e) {
+    //     if ($(e.target).is('option')) {
+    //         return;
+    //     }
+    //     if ($(e.target).is('optgroup')) {
+    //         $(this).find('option').change();
+    //     }
+    // });
 
 $('[name="geo"]').change(function (e) {
   var thisprop = $(this).data('show');
