@@ -108,6 +108,6 @@ select[multiple]{
 .showon, .showon-owner{
   display: none
 }
-.owner .showon-owner, .chk .showon{
+.owner .showon-owner, .debt .showon, .str_fin .showon{
   display: block;
 }

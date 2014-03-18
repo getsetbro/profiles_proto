@@ -4,7 +4,7 @@
 <head>
     <meta charset='utf-8' />
     <title>Profile</title>
-<!--     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" /> -->
+    <!--     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" /> -->
     <link rel="stylesheet" href="stylesheets/bootstrap202.css" />
     <link rel="stylesheet" href="stylesheets/stylesheet.css" />
 </head>
@@ -17,8 +17,7 @@
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="navbar-inner clearfix">
             <ul class="nav pull-right">
-                <li><a><i class="fa fa-user"></i> User McGoo</a>
-                </li>
+                <li><a><i class="fa fa-user"></i> User McGoo</a></li>
             </ul>
             <h1 class="brand">Profile</h1>
         </div>
@@ -27,218 +26,197 @@
         <nav class="l1">tabs</nav>
         <aside class="l1">menu</aside>
         <article class="l1">
-          <div class="area clearfix">
-            <div class="form-search pull-right">
-              <div class="input-append">
-                <input type="text" class="span3 search-query"><!-- .
-                --><button type="submit" class="btn">Search</button>
-              </div>
+            <div class="area clearfix">
+                <div class="form-search pull-right">
+                    <div class="input-append"><input type="text" class="span3 search-query"><!-- inline
+                    --><button type="submit" class="btn">Search</button>
+                    </div>
+                </div>
+                <b class="nowrap">This opportunity: </b><b>55555555-5555-5555-5555-555555555555</b>
             </div>
-            <b class="nowrap">This opportunity: </b><b>55555555-5555-5555-5555-555555555555</b>
-          </div>
-          <div class="area-well">
-              <span class="legend">Category:</span>
-              <label class="checkbox inline"><input type="checkbox" name="cat-x" />Debt</label>
-              <label class="checkbox inline"><input type="checkbox" name="cat-x" />Structured Finance</label>
-              <label class="checkbox inline"></label>
-              <label class="radio inline"><input type="radio" name="cat-y">Owner</label>
-          </div>
-          <div class="row area-well showon">
-              <span class="legend">Type:</span>
-              <label class="checkbox inline span3"><input type="checkbox" />Agency</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Bank/Thrift</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Buyer</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Conduit</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Credit Corp</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Debt Fund</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Developer</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Fund Advisor</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Institurion Equity</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Life Company</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Pension Fund</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Private Equity</label>
-              <label class="checkbox inline span3"><input type="checkbox" />REIT</label>
-          </div>
 
-              <div class="area-well showon showon-owner">
+            <div class="area-well">
+                <span class="legend">Category:</span>
+                <label class="checkbox inline"><input type="checkbox" name="cat-x" id="debt" />Debt</label>
+                <label class="checkbox inline"><input type="checkbox" name="cat-x" id="str_fin" />Structured Finance</label>
+                <label class="checkbox radio inline"><input type="radio" name="cat-y" id="owner">Owner</label>
+            </div>
+
+            <div class="row area-well showon">
+                <span class="legend">Type:</span>
+                <label class="checkbox inline span3"><input type="checkbox" />Agency</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Bank/Thrift</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Buyer</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Conduit</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Credit Corp</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Debt Fund</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Developer</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Fund Advisor</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Institurion Equity</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Life Company</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Pension Fund</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Private Equity</label>
+                <label class="checkbox inline span3"><input type="checkbox" />REIT</label>
+            </div>
+
+            <div class="area-well showon showon-owner">
                 <span class="legend">Property class:</span>
-                <label class="checkbox"><input type="checkbox" />A</label>
-                <label class="checkbox"><input type="checkbox" />B</label>
-                <label class="checkbox"><input type="checkbox" />C</label>
-                <label class="checkbox"><input type="checkbox" />Sub C</label>
-              </div>
+                <label class="checkbox inline"><input type="checkbox" />A</label>
+                <label class="checkbox inline"><input type="checkbox" />B</label>
+                <label class="checkbox inline"><input type="checkbox" />C</label>
+                <label class="checkbox inline"><input type="checkbox" />Sub C</label>
+            </div>
 
-              <div class="area-well row-fluid showon showon-owner">
+            <div class="area-well row-fluid showon showon-owner">
                 <div class="span4">
-                  <span class="legend">Deal Size:</span>
-                  <div class="control-group">
-                    <label class="control-label" for="min">Minimum:</label>
-                    <div class="controls">
-                      <input type="text" id="min" placeholder="Enter Text">
+                    <span class="legend">Deal Size:</span>
+                    <div class="control-group">
+                        <label class="control-label" for="min">Minimum:</label>
+                        <div class="controls"><input type="text" id="min" placeholder="Enter Text"/></div>
                     </div>
-                  </div>
                 </div>
                 <div class="span4">
-                  <div class="control-group">
-                    <label class="control-label" for="max">Maximum:</label>
-                    <div class="controls">
-                      <input type="text" id="max" placeholder="Enter Text">
+                    <div class="control-group">
+                        <label class="control-label" for="max">Maximum:</label>
+                        <div class="controls"><input type="text" id="max" placeholder="Enter Text"/></div>
                     </div>
-                  </div>
                 </div>
                 <div class="span4">
-                  <div class="control-group">
-                    <label class="control-label" for="val">Value:</label>
-                    <div class="controls">
-                      <input type="text" id="val" placeholder="Enter Text">
+                    <div class="control-group">
+                        <label class="control-label" for="val">Value:</label>
+                        <div class="controls"><input type="text" id="val" placeholder="Enter Text"/></div>
                     </div>
-                  </div>
                 </div>
-              </div>
+            </div>
 
-              <div class="area-well showon showon-owner">
-                    <span class="legend">Economic Parameters:</span>
-                    <label class="checkbox"><input type="checkbox" />Stabilized</label>
-                    <label class="checkbox"><input type="checkbox" />Non-stabilized</label>
-                    <label class="checkbox"><input type="checkbox" />Non-Cash flowing/vacant</label>
-              </div>
+            <div class="area-well showon showon-owner">
+                <span class="legend">Economic Parameters:</span>
+                <label class="checkbox inline"><input type="checkbox" />Stabilized</label>
+                <label class="checkbox inline"><input type="checkbox" />Non-stabilized</label>
+                <label class="checkbox inline"><input type="checkbox" />Non-Cash flowing/vacant</label>
+            </div>
 
-
-          <div class="row area-well showon showon-owner">
-              <span class="legend">Key Influencer:</span>
-              ?
-          </div>
-          <div class="row area-well showon showon-owner">
-              <span class="legend">Property types:</span>
-              <select multiple>
-                <optgroup label="Office">
-                  <option value="">Multi Tenant</option>
-                  <option value="">Single Tenant</option>
-                  <option value="">Credit</option>
-                  <option value="">Data Center</option>
-                  <option value="">Non-Credit</option>
-                  <option value="">Medical (MOB)</option>
-                  <option value="">GSA</option>
-                  <option value="">Owner Occupied</option>
-                </optgroup>
-              </select>
-              <select multiple>
-                <optgroup label="Retail">
-                  <option value="">Multi Tenant</option>
-                  <option value="">Single Tenant</option>
-                  <option value="">Credit</option>
-                  <option value="">Non-Credit</option>
-                  <option value="">Malls</option>
-                  <option value="">Grocery Anchored</option>
-                  <option value="">Unanchored</option>
-                  <option value="">Power Center/Big Box</option>
-                  <option value="">Specialty</option>
-                  <option value="">Mixed Use</option>
-                  <option value="">Owner occupied</option>
-                </optgroup>
-              </select>
-              <select multiple>
-                <optgroup label="Industrial">
-                  <option value="">Manufacturing – Heavy</option>
-                  <option value="">Manufacturing - Light</option>
-                  <option value="">Distribution/Warehouse</option>
-                  <option value="">Owner Occupied</option>
-                  <option value="">Flex</option>
-                </optgroup>
-              </select>
-              <select multiple>
-                <optgroup label="Multi-Family">
-                  <option value="">Urban/Core</option>
-                  <option value="">Suburban</option>
-                  <option value="">Garden</option>
-                  <option value="">Mid Rise</option>
-                  <option value="">High Rise</option>
-                  <option value="">Condominium</option>
-                  <option value="">Fractured Condominium</option>
-                  <option value="">Mixed Use</option>
-                  <option value="">Student</option>
-                  <option value="">Manufactured Housing</option>
-                  <option value="">Military</option>
-                </optgroup>
-              </select>
-              <select multiple>
-                <optgroup label="Senior Living">
-                  <option value="">Independent</option>
-                  <option value="">Assisted</option>
-                  <option value="">Memory Care</option>
-                </optgroup>
-              </select>
-              <select multiple>
-                <optgroup label="Medical">
-                  <option value="">Hospital</option>
-                  <option value="">Surgical center</option>
-                  <option value="">Medical (MOB)</option>
-                </optgroup>
-              </select>
-              <select multiple>
-                <optgroup label="Other">
-                  <option value="">Environmentally challenged Assets/redevelopment</option>
-                  <option value="">Lot Development</option>
-                  <option value="">Data Center</option>
-                  <option value="">Marina</option>
-                  <option value="">Golf Course/Golf Course Resort</option>
-                  <option value="">Self Storage</option>
-                </optgroup>
-              </select>
-              <select multiple>
-                <optgroup label="Land">
-                  <option value="">Residential</option>
-                  <option value="">Multi Family</option>
-                  <option value="">Office</option>
-                  <option value="">Industrial</option>
-                  <option value="">Retail</option>
-                  <option value="">Resort</option>
-                  <option value="">Timber</option>
-                  <option value="">Agricultural</option>
-                </optgroup>
-              </select>
-          </div>
-          <div class="row area-well showon showon-owner">
-              <span class="legend">Client Programs:</span>
-              <label class="checkbox inline span3"><input type="checkbox" />Core</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Core Plus</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Value Add</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Opportunistic</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Developer</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Cash Buyer</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Leverage Buyer</label>
-              <label class="checkbox inline span3"><input type="checkbox" />JVs Considered</label>
-              <label class="checkbox inline span3"><input type="checkbox" />JVs Only</label>
-          </div>
-          <div class="row area-well showon">
-              <span class="legend">Programs:</span>
-              <label class="checkbox inline span3"><input type="checkbox" />Permanent</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Bridge/Interim</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Construction</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Construction Mini-perm</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Rehab</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Fully Amortizing</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Mezzanine</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Participating</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Recourse Typically Required</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Non-Recourse Construction</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Warm Body on Carve out typically required</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Fixed Rate</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Floating Rate</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Allows 2nd Mortgage</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Prepayment Fixed/Step Down</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Prepayment Yield Maintenance</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Prepayment Defeasance</label>
-              <label class="checkbox inline span3"><input type="checkbox" />Participating mortgage</label>
-          </div>
-          <div class="area clearfix">
-            <button type="button" class="btn btn-danger pull-right">GO</button>
-          </div>
+            <div class="row area-well showon showon-owner">
+                <span class="legend">Key Influencer:</span>
+                ?
+            </div>
+            <div class="row area-well showon showon-owner">
+                <span class="legend">Property types:</span>
+                <select multiple>
+                    <optgroup label="Office">
+                        <option value="">Multi Tenant</option>
+                        <option value="">Single Tenant</option>
+                        <option value="">Credit</option>
+                        <option value="">Data Center</option>
+                        <option value="">Non-Credit</option>
+                        <option value="">Medical (MOB)</option>
+                        <option value="">GSA</option>
+                        <option value="">Owner Occupied</option>
+                    </optgroup>
+                    <optgroup label="Retail">
+                        <option value="">Multi Tenant</option>
+                        <option value="">Single Tenant</option>
+                        <option value="">Credit</option>
+                        <option value="">Non-Credit</option>
+                        <option value="">Malls</option>
+                        <option value="">Grocery Anchored</option>
+                        <option value="">Unanchored</option>
+                        <option value="">Power Center/Big Box</option>
+                        <option value="">Specialty</option>
+                        <option value="">Mixed Use</option>
+                        <option value="">Owner occupied</option>
+                    </optgroup>
+                    <optgroup label="Industrial">
+                        <option value="">Manufacturing – Heavy</option>
+                        <option value="">Manufacturing - Light</option>
+                        <option value="">Distribution/Warehouse</option>
+                        <option value="">Owner Occupied</option>
+                        <option value="">Flex</option>
+                    </optgroup>
+                    <optgroup label="Multi-Family">
+                        <option value="">Urban/Core</option>
+                        <option value="">Suburban</option>
+                        <option value="">Garden</option>
+                        <option value="">Mid Rise</option>
+                        <option value="">High Rise</option>
+                        <option value="">Condominium</option>
+                        <option value="">Fractured Condominium</option>
+                        <option value="">Mixed Use</option>
+                        <option value="">Student</option>
+                        <option value="">Manufactured Housing</option>
+                        <option value="">Military</option>
+                    </optgroup>
+                    <optgroup label="Senior Living">
+                        <option value="">Independent</option>
+                        <option value="">Assisted</option>
+                        <option value="">Memory Care</option>
+                    </optgroup>
+                    <optgroup label="Medical">
+                        <option value="">Hospital</option>
+                        <option value="">Surgical center</option>
+                        <option value="">Medical (MOB)</option>
+                    </optgroup>
+                    <optgroup label="Other">
+                        <option value="">Environmentally challenged Assets/redevelopment</option>
+                        <option value="">Lot Development</option>
+                        <option value="">Data Center</option>
+                        <option value="">Marina</option>
+                        <option value="">Golf Course/Golf Course Resort</option>
+                        <option value="">Self Storage</option>
+                    </optgroup>
+                    <optgroup label="Land">
+                        <option value="">Residential</option>
+                        <option value="">Multi Family</option>
+                        <option value="">Office</option>
+                        <option value="">Industrial</option>
+                        <option value="">Retail</option>
+                        <option value="">Resort</option>
+                        <option value="">Timber</option>
+                        <option value="">Agricultural</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div class="row area-well showon showon-owner">
+                <span class="legend">Client Programs:</span>
+                <label class="checkbox inline span3"><input type="checkbox" />Core</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Core Plus</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Value Add</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Opportunistic</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Developer</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Cash Buyer</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Leverage Buyer</label>
+                <label class="checkbox inline span3"><input type="checkbox" />JVs Considered</label>
+                <label class="checkbox inline span3"><input type="checkbox" />JVs Only</label>
+            </div>
+            <div class="row area-well showon">
+                <span class="legend">Programs:</span>
+                <label class="checkbox inline span3"><input type="checkbox" />Permanent</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Bridge/Interim</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Construction</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Construction Mini-perm</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Rehab</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Fully Amortizing</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Mezzanine</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Participating</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Recourse Typically Required</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Non-Recourse Construction</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Warm Body on Carve out typically required</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Fixed Rate</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Floating Rate</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Allows 2nd Mortgage</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Prepayment Fixed/Step Down</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Prepayment Yield Maintenance</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Prepayment Defeasance</label>
+                <label class="checkbox inline span3"><input type="checkbox" />Participating mortgage</label>
+            </div>
+            <div class="area clearfix">
+                <button type="button" class="btn btn-danger pull-right">GO</button>
+            </div>
         </article>
     </section>
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+    <script src="//code.jquery.com/jquery-latest.min.js"></script>
     <script src="javascripts/main.js"></script>
 
 </body>
-
 </html>
