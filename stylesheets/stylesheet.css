@@ -102,7 +102,10 @@ border-radius: 4px 0 4px 0;
   margin-left: 10px;
 }
 .tall-select[multiple]{
-  height: 250px;
+  height: 265px;
+}
+select{
+  max-width:100%;
 }
 .controls input{
   width:90%;
@@ -114,4 +117,18 @@ border-radius: 4px 0 4px 0;
 .owner .showon-owner, .debt .showon, .str_fin .showon{
   display: block;
 }
+label.showon, label.showon-owner{
+  color: #ccc;
+}
+label.showon input, label.showon-owner input{
+  display: none
+}
+.owner label.showon-owner, .debt label.showon, .str_fin label.showon{
+  color: #222;
+}
+
+.owner label.showon-owner input, .debt label.showon input, .str_fin label.showon input{
+  display: block;
+}
+
 

@@ -18,6 +18,9 @@ var app = (function() {
       $bdy.removeClass('owner');
     }else{
       $bdy.removeClass(e.target.id);
+      if( !$bdy.prop('class') ){
+        $cat_rdo.click();
+      }
     }
   });
 
