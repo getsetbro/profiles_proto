@@ -27,6 +27,16 @@ var app = (function() {
 
   });
 
+
+$("select").click(function(e) {
+   if ( $(e.target).is('option') ){
+    return;
+   }
+   if ( $(e.target).is('optgroup') ){
+     $(e.target).children().attr('selected','selected');
+   }
+
+});
   return {
     a: 0
   };
