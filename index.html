@@ -26,21 +26,23 @@
         <nav class="l1">tabs</nav>
         <aside class="l1">menu</aside>
         <article class="l1">
-            <div class="area clearfix">
-                <b class="nowrap">Contact name: Firstname Lastname. Company: ABC LLC Inc.</b>
+            <div class="area">
+                <b>Contact: </b>Firstname Lastname. | <b>Company: </b>ABC LLC Inc.
             </div>
-
-            <div class="area-well">
-                <span class="legend">Category:</span>
-                <label class="checkbox inline"><input type="checkbox" name="cat-x" id="debt" />Debt</label>
-                <label class="checkbox inline"><input type="checkbox" name="cat-x" id="str_fin" />Structured Finance</label>
-                <label class="checkbox radio inline"><input type="radio" name="cat-y" id="owner">Owner</label>
-
-                <div>Vehicles:</div>
-                <select name="" id="">
-                  <option value="">a</option>
-                  <option value="">b</option>
-                </select> --- >
+            <div class="row-fluid row-well">
+              <div class="span6 span-well">
+                  <span class="legend">Category:</span>
+                  <label class="checkbox inline"><input type="checkbox" name="cat-x" id="debt" />Debt</label>
+                  <label class="checkbox inline"><input type="checkbox" name="cat-x" id="str_fin" />Structured Finance</label>
+                  <label class="checkbox radio inline"><input type="radio" name="cat-y" id="owner">Owner</label>
+              </div>
+              <div class="span6 span-well">
+                  <span class="legend">Vehicles:</span>
+                  <select>
+                    <option value="">a</option>
+                    <option value="">b</option>
+                  </select>
+              </div>
             </div>
 
 
@@ -60,19 +62,18 @@
                 <label class="checkbox inline span2"><input type="checkbox" />Private Equity</label>
                 <label class="checkbox inline span2"><input type="checkbox" />REIT</label>
             </div>
-
-            <div class="area-well showon showon-owner">
+            <div class="row-fluid row-well">
+              <div class="span6 span-well showon showon-owner">
                 <span class="legend">Key Influencer:</span>
-                <label class="checkbox"><input type="checkbox" />Yes</label>
-            </div>
-
-            <div class="area-well showon showon-owner">
+                <label class="checkbox inline"><input type="checkbox" />Yes</label>
+              </div>
+              <div class="span6 span-well showon showon-owner">
                 <span class="legend">Property class:</span>
                 <label class="checkbox inline"><input type="checkbox" />A</label>
                 <label class="checkbox inline"><input type="checkbox" />B</label>
                 <label class="checkbox inline"><input type="checkbox" />C</label>
                 <label class="checkbox inline"><input type="checkbox" />Sub C</label>
-                <div>--- ></div>
+              </div>
             </div>
 
 
@@ -91,10 +92,10 @@
                     </div>
                 </div>
             </div>
-
-            <div class="row area-well showon showon-owner">
+            <div class="row-fluid row-well">
+              <div class="span6 span-well showon showon-owner">
                 <span class="legend">Property types:</span>
-                <select multiple>
+                <select multiple class="tall-select">
                     <optgroup label="Office" value="opt-office">
                         <option value="">Multi Tenant</option>
                         <option value="">Single Tenant</option>
@@ -167,26 +168,27 @@
                         <option value="">Agricultural</option>
                     </optgroup>
                 </select>
-            </div>
-            <div class="row area-well showon showon-owner">
+              </div>
+              <div class="span6 span-well showon showon-owner">
                 <span class="legend">Geography:</span>
                 <label class="checkbox radio inline"><input type="radio" name="geo" checked /> Nationwide</label>
                 <label class="checkbox radio inline"><input type="radio" name="geo"/> International</label>
+                <br>
                 <select multiple>
                         <option value="">1</option>
                         <option value="">2</option>
                 </select>
-                <br><br>
                 <select style="display:none">
                         <option value="">Hungary</option>
                         <option value="">...</option>
                 </select>
-                <fieldset>
-                  <label class="checkbox radio inline"><input type="radio" name="markets" /> primary markets only</label>
-                  <label class="checkbox radio inline"><input type="radio" name="markets" /> primary and secondary markets only</label>
-                  <label class="checkbox radio inline"><input type="radio" name="markets" /> primary, secondary, and tertiary markets</label>
-                  <label class="checkbox radio inline"><input type="radio" name="markets"  checked /> none</label>
-                </fieldset>
+                <div class="well">
+                  <label class="checkbox radio"><input type="radio" name="markets" /> Primary markets only</label>
+                  <label class="checkbox radio"><input type="radio" name="markets" /> Primary &amp; secondary markets only</label>
+                  <label class="checkbox radio"><input type="radio" name="markets" /> Primary, secondary, &amp; tertiary markets</label>
+                  <label class="checkbox radio"><input type="radio" name="markets"  checked /> none</label>
+                </div>
+              </div>
             </div>
             <div class="row area-well showon showon-owner">
                 <span class="legend">Client Programs:</span>

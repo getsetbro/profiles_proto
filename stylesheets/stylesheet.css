@@ -101,8 +101,8 @@ border-radius: 4px 0 4px 0;
 .checkbox.inline {
   margin-left: 10px;
 }
-select[multiple]{
-  height: 210px;
+.tall-select[multiple]{
+  height: 250px;
 }
 .controls input{
   width:90%;
@@ -114,8 +114,4 @@ select[multiple]{
 .owner .showon-owner, .debt .showon, .str_fin .showon{
   display: block;
 }
-fieldset {
 
-border: 1px solid #999;
-border-radius: 4px
-}
