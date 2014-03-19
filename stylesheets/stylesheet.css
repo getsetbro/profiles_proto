@@ -159,13 +159,39 @@ pre{
 
 .geo-dd.us{
   width:210px;
-  border: 1px solid #cccccc;
-border-radius: 3px;
-overflow: auto;
-height: 99px;
-padding: 10px;
-margin: 10px
+  max-width: 100%;
+  height: 80px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  overflow: auto;
+  padding: 4px;
+  margin-bottom: 10px;
+  display: inline-block;
+  vertical-align: top
+}
+.geo-dd.us label{
+margin-bottom: 1px
 }
 .geo-dd.us .selected{
-  background-color: #ddd
+  background-color: #ccc;
+}
+
+.proptype-btns{
+  text-align: right;
+}
+.proptype-btns button{
+  min-width: 100%
+}
+.proptype-slcts select{
+margin-bottom: 0;
+height: 142px
+}
+.radio.inline, .checkbox.inline {
+padding-top: 0;
+}
+label {
+margin-bottom: 0
+}
+input {
+height: 9px;
 }
