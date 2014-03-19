@@ -1,49 +1,47 @@
-var app = (function() {
-    "use strict";
 
-    var $bdy = $(document.body);
+//angular
+function Controller($scope) {
+  "use strict";
 
-    var $cat_chx = $('[name="cat-x"]');
-    var $cat_rdo = $('[name="cat-y"]');
 
-    var $debt = $('#debt');
-    var $str_fin = $('#str_fin');
-    var $owner = $('#owner');
+}
 
-    //category select changes
-    $cat_chx.change(function(e) {
-        if (e.target.checked) {
-            $cat_rdo.prop("checked", false);
-            $bdy.addClass(e.target.id);
-            $bdy.removeClass('owner');
-        } else {
-            $bdy.removeClass(e.target.id);
-            if (!$bdy.prop('class')) {
-                $cat_rdo.click();
-            }
-        }
-    });
-    $cat_rdo.change(function(e) {
-        $cat_chx.prop("checked", false);
-        $bdy.attr("class", 'owner');
+(function (app) {
+  'use strict';
 
-    });
+  app.controller('Controller', function($scope) {
 
-    // $(".tall-select").click(function(e) {
-    //     if ($(e.target).is('option')) {
-    //         return;
-    //     }
-    //     if ($(e.target).is('optgroup')) {
-    //         $(this).find('option').change();
-    //     }
-    // });
-
-$('[name="geo"]').change(function (e) {
-  var thisprop = $(this).data('show');
-  $('.geo-dd').hide().filter('#'+thisprop).show();
-});
-
-    return {
-        a: 0
+    $scope.prf = {};
+    $scope.wrap = $('article');
+    $scope.prf.Geo = "Nationwide";
+    $scope.prf.Markets = "none";
+    $scope.prf.Owner_Buyer = false,
+    $scope.prf.Lender = {};
+    $scope.prf.Lender.Structured_Finance = false;
+    $scope.prf.Lender.Debt = false;
+    $scope.toggleProfile = function toggleProfile(css) {
+      if ($scope.prf.Lender.Structured_Finance || $scope.prf.Lender.Debt) {
+          $scope.prf.Owner_Buyer = false,
+          $scope.wrap.addClass(css);
+          $scope.wrap.removeClass('owner');
+      } else {
+          $scope.wrap.attr("class", 'owner');
+          $scope.prf.Owner_Buyer = true;
+      }
     };
-})();
+    $scope.toggleLender = function toggleProfile() {
+      if($scope.prf.Owner_Buyer){
+        $scope.prf.Lender.Structured_Finance = false;
+        $scope.prf.Lender.Debt = false;
+        $scope.wrap.attr("class", 'owner');
+      }else{
+        $scope.wrap.removeClass('owner');
+      }
+    };
+    $scope.geoChange = function geoChange(to_show) {
+      $('.geo-dd').hide().filter('#'+to_show).show();
+    };
+
+  });
+
+})(angular.module('app', []));

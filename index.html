@@ -10,7 +10,7 @@
 
 </head>
 
-<body ng-app="">
+<body ng-app="app">
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="navbar-inner clearfix">
             <ul class="nav pull-right">
@@ -20,45 +20,47 @@
         </div>
     </div>
     <section class="section" ng-controller="Controller">
-        <nav class="l1">tabs</nav>
-        <aside class="l1">
+        <nav>tabs</nav>
+        <aside>
             <pre>{{prf | json}}</pre>
         </aside>
-        <article novalidate class="l1">
+        <article novalidate>
             <div class="area">
-                <b>Contact: </b>Firstname Lastname. | <b>Company: </b>ABC LLC Inc.
+              <div class="pull-right">
+                <button type="button" class="btn btn-default">Cancel</button>
+                <button type="button" class="btn btn-danger">Save</button>
+              </div>
+              <b>Contact: </b>Firstname Lastname. | <b>Company: </b>ABC &amp; Associates LLC Inc.
             </div>
             <div class="row-fluid row-well">
               <div class="span6 span-well">
                   <span class="legend">Category:</span>
-                  <label class="checkbox inline"><input type="checkbox" name="cat-x" id="debt" ng-model="prf.Lender.Debt" />Debt</label>
-                  <label class="checkbox inline"><input type="checkbox" name="cat-x" id="str_fin" ng-model="prf.Lender.Structured_Finance" />Structured Finance</label>
-                  <label class="checkbox radio inline"><input type="radio" name="cat-y" id="owner" ng-model="prf.Profile" value="owner(buyer)">Owner</label>
+                  <label class="checkbox inline"><input type="checkbox" name="cat-x" ng-model="prf.Lender.Debt" ng-change="toggleProfile('debt')"/>Debt</label>
+                  <label class="checkbox inline"><input type="checkbox" name="cat-x" ng-model="prf.Lender.Structured_Finance" ng-change="toggleProfile('str_fin')"/>Structured Finance</label>
+                  <label class="checkbox inline"><input type="checkbox" name="cat-y" ng-model="prf.Owner_Buyer" ng-change="toggleLender()"/>Owner</label>
               </div>
               <!--<div class="span6 span-well">
                   <span class="legend">Vehicles:</span>
                   <select class="no-bottom-margin" ng-model="prf.vehicle">
                     <option value="Vehicle a">Vehicle a</option>
-                    <option value="Vehicle b">Vehicle b</option>
-                    <option value="Vehicle c">Vehicle c</option>
                   </select>
                </div>-->
              </div>
             <div class="row area-well showon showon-owner">
-                <span class="legend">Type:</span>
-                <label class="checkbox inline span3 showon"><input type="checkbox" ng-model="prf.Type.Agency"/>Agency</label>
-                <label class="checkbox inline span3 showon"><input type="checkbox" ng-model="prf.Type.Bank_Thrift"/>Bank/Thrift</label>
-                <label class="checkbox inline span3"       ><input type="checkbox" ng-model="prf.Type.Buyer"/>Buyer</label>
-                <label class="checkbox inline span3 showon"><input type="checkbox" ng-model="prf.Type.Conduit"/>Conduit</label>
-                <label class="checkbox inline span3 showon"><input type="checkbox" ng-model="prf.Type.Credit_Corp"/>Credit Corp</label>
-                <label class="checkbox inline span3 showon"><input type="checkbox" ng-model="prf.Type.Debt_Fund"/>Debt Fund</label>
-                <label class="checkbox inline span3"       ><input type="checkbox" ng-model="prf.Type.Developer"/>Developer</label>
-                <label class="checkbox inline span3"       ><input type="checkbox" ng-model="prf.Type.Fund_Advisor"/>Fund Advisor</label>
-                <label class="checkbox inline span3"       ><input type="checkbox" ng-model="prf.Type.Institution_Equity"/>Institution Equity</label>
-                <label class="checkbox inline span3"       ><input type="checkbox" ng-model="prf.Type.Life_Company"/>Life Company</label>
-                <label class="checkbox inline span3"       ><input type="checkbox" ng-model="prf.Type.Pension_Fund"/>Pension Fund</label>
-                <label class="checkbox inline span3"       ><input type="checkbox" ng-model="prf.Type.Private_Equity"/>Private Equity</label>
-                <label class="checkbox inline span3"       ><input type="checkbox" ng-model="prf.Type.REIT"/>REIT</label>
+              <span class="legend">Type:</span>
+              <label class="checkbox inline span3 showon"><input type="checkbox" ng-model="prf.Type.Agency"/>Agency</label>
+              <label class="checkbox inline span3 showon"><input type="checkbox" ng-model="prf.Type.Bank_Thrift"/>Bank/Thrift</label>
+              <label class="checkbox inline span3"       ><input type="checkbox" ng-model="prf.Type.Buyer"/>Buyer</label>
+              <label class="checkbox inline span3 showon"><input type="checkbox" ng-model="prf.Type.Conduit"/>Conduit</label>
+              <label class="checkbox inline span3 showon"><input type="checkbox" ng-model="prf.Type.Credit_Corp"/>Credit Corp</label>
+              <label class="checkbox inline span3 showon"><input type="checkbox" ng-model="prf.Type.Debt_Fund"/>Debt Fund</label>
+              <label class="checkbox inline span3"       ><input type="checkbox" ng-model="prf.Type.Developer"/>Developer</label>
+              <label class="checkbox inline span3"       ><input type="checkbox" ng-model="prf.Type.Fund_Advisor"/>Fund Advisor</label>
+              <label class="checkbox inline span3"       ><input type="checkbox" ng-model="prf.Type.Institution_Equity"/>Institution Equity</label>
+              <label class="checkbox inline span3"       ><input type="checkbox" ng-model="prf.Type.Life_Company"/>Life Company</label>
+              <label class="checkbox inline span3"       ><input type="checkbox" ng-model="prf.Type.Pension_Fund"/>Pension Fund</label>
+              <label class="checkbox inline span3"       ><input type="checkbox" ng-model="prf.Type.Private_Equity"/>Private Equity</label>
+              <label class="checkbox inline span3"       ><input type="checkbox" ng-model="prf.Type.REIT"/>REIT</label>
             </div>
             <div class="row-fluid row-well">
               <div class="span4 span-well showon showon-owner">
@@ -73,9 +75,9 @@
                 <label class="checkbox inline"><input type="checkbox" ng-model="prf.Property_Class.Sub_C" />Sub C</label>
               </div>
               <div class="span4 span-well showon showon-owner">
-                  <span class="legend">Deal Size:</span>
-                  <span class="nowrap">Min: <input type="text" id="min" placeholder="Number" class="inlineinput no-bottom-margin" ng-model="prf.Deal_Size.min"/></span>
-                  <span class="nowrap">Max: <input type="text" id="max" placeholder="Number" class="inlineinput no-bottom-margin" ng-model="prf.Deal_Size.max"/></span>
+                <span class="legend">Deal Size:</span>
+                <span class="nowrap">Min: <input type="text" id="min" placeholder="Number" class="inlineinput no-bottom-margin" ng-model="prf.Deal_Size.min"/></span>
+                <span class="nowrap">Max: <input type="text" id="max" placeholder="Number" class="inlineinput no-bottom-margin" ng-model="prf.Deal_Size.max"/></span>
               </div>
             </div>
             <div class="row-fluid row-well">
@@ -158,8 +160,8 @@
               </div>
               <div class="span6 span-well showon showon-owner">
                 <span class="legend">Geography:</span>
-                <label class="checkbox radio inline"><input type="radio" name="geo" data-show="us" ng-model="prf.Geo" value="Nationwide" /> Nationwide</label>
-                <label class="checkbox radio inline"><input type="radio" name="geo" data-show="in" ng-model="prf.Geo" value="International" /> International</label>
+                <label class="checkbox radio inline"><input type="radio" name="geo" ng-model="prf.Geo" value="Nationwide" ng-change="geoChange('us')" /> Nationwide</label>
+                <label class="checkbox radio inline"><input type="radio" name="geo" ng-model="prf.Geo" value="International" ng-change="geoChange('in')" /> International</label>
                 <select multiple class="geo-dd" id="us" ng-model="prf.Geography">
                   <option value="AL" selected>Alabama</option>
                   <option value="AK" selected>Alaska</option>
@@ -429,65 +431,53 @@
             </div>
             <div class="row area-well showon showon-owner">
                 <span class="legend">Client Programs:</span>
-                <label class="checkbox inline span3"><input type="checkbox" />Core</label>
-                <label class="checkbox inline span3"><input type="checkbox" />Core Plus</label>
-                <label class="checkbox inline span3"><input type="checkbox" />Value Add</label>
-                <label class="checkbox inline span3"><input type="checkbox" />Opportunistic</label>
-                <label class="checkbox inline span3"><input type="checkbox" />Developer</label>
-                <label class="checkbox inline span3"><input type="checkbox" />Cash Buyer</label>
-                <label class="checkbox inline span3"><input type="checkbox" />Leverage Buyer</label>
-                <label class="checkbox inline span3"><input type="checkbox" />JVs Considered</label>
-                <label class="checkbox inline span3"><input type="checkbox" />JVs Only</label>
+                <label class="checkbox inline span3"><input type="checkbox" ng-model="prf.Client_Programs.Core"/>Core</label>
+                <label class="checkbox inline span3"><input type="checkbox" ng-model="prf.Client_Programs.Core_Plus"/>Core Plus</label>
+                <label class="checkbox inline span3"><input type="checkbox" ng-model="prf.Client_Programs.Value_Add"/>Value Add</label>
+                <label class="checkbox inline span3"><input type="checkbox" ng-model="prf.Client_Programs.Opportunistic"/>Opportunistic</label>
+                <label class="checkbox inline span3"><input type="checkbox" ng-model="prf.Client_Programs.Developer"/>Developer</label>
+                <label class="checkbox inline span3"><input type="checkbox" ng-model="prf.Client_Programs.Cash_Buyer"/>Cash Buyer</label>
+                <label class="checkbox inline span3"><input type="checkbox" ng-model="prf.Client_Programs.Leverage_Buyer"/>Leverage Buyer</label>
+                <label class="checkbox inline span3"><input type="checkbox" ng-model="prf.Client_Programs.JVs_Considered"/>JVs Considered</label>
+                <label class="checkbox inline span3"><input type="checkbox" ng-model="prf.Client_Programs.JVs_Only"/>JVs Only</label>
             </div>
             <div class="row area-well showon">
                 <span class="legend">Programs:</span>
-                <label class="checkbox inline span3"><input type="checkbox" />Permanent</label>
-                <label class="checkbox inline span3"><input type="checkbox" />Bridge/Interim</label>
-                <label class="checkbox inline span3"><input type="checkbox" />Construction</label>
-                <label class="checkbox inline span3"><input type="checkbox" />Construction Mini-perm</label>
-                <label class="checkbox inline span3"><input type="checkbox" />Rehab</label>
-                <label class="checkbox inline span3"><input type="checkbox" />Fully Amortizing</label>
-                <label class="checkbox inline span3"><input type="checkbox" />Mezzanine</label>
-                <label class="checkbox inline span3"><input type="checkbox" />Participating</label>
-                <label class="checkbox inline span3"><input type="checkbox" />Recourse Typically Required</label>
-                <label class="checkbox inline span3"><input type="checkbox" />Non-Recourse Construction</label>
-                <label class="checkbox inline span3"><input type="checkbox" />Warm body on Carve out typically required</label>
-                <label class="checkbox inline span3"><input type="checkbox" />Fixed Rate</label>
-                <label class="checkbox inline span3"><input type="checkbox" />Floating Rate</label>
-                <label class="checkbox inline span3"><input type="checkbox" />Allows 2nd Mortgage</label>
-                <label class="checkbox inline span3"><input type="checkbox" />Prepayment Fixed/Step Down</label>
-                <label class="checkbox inline span3"><input type="checkbox" />Prepayment Yield Maintenance</label>
-                <label class="checkbox inline span3"><input type="checkbox" />Prepayment Defeasance</label>
-                <label class="checkbox inline span3"><input type="checkbox" />Participating mortgage</label>
+                <label class="checkbox inline span3"><input type="checkbox" ng-model="prf.Programs.Permanent"/>Permanent</label>
+                <label class="checkbox inline span3"><input type="checkbox" ng-model="prf.Programs.Bridge_Interim"/>Bridge/Interim</label>
+                <label class="checkbox inline span3"><input type="checkbox" ng-model="prf.Programs.Construction"/>Construction</label>
+                <label class="checkbox inline span3"><input type="checkbox" ng-model="prf.Programs.Construction_Mini_perm"/>Construction Mini-perm</label>
+                <label class="checkbox inline span3"><input type="checkbox" ng-model="prf.Programs.Rehab"/>Rehab</label>
+                <label class="checkbox inline span3"><input type="checkbox" ng-model="prf.Programs.Fully_Amortizing"/>Fully Amortizing</label>
+                <label class="checkbox inline span3"><input type="checkbox" ng-model="prf.Programs.Mezzanine"/>Mezzanine</label>
+                <label class="checkbox inline span3"><input type="checkbox" ng-model="prf.Programs.Participating"/>Participating</label>
+                <label class="checkbox inline span3"><input type="checkbox" ng-model="prf.Programs.Recourse_Typically_Required"/>Recourse Typically Required</label>
+                <label class="checkbox inline span3"><input type="checkbox" ng-model="prf.Programs.Non_Recourse_Construction"/>Non-Recourse Construction</label>
+                <label class="checkbox inline span3"><input type="checkbox" ng-model="prf.Programs.Warm_body_on_Carve_out_typically_required"/>Warm body on Carve out typically required</label>
+                <label class="checkbox inline span3"><input type="checkbox" ng-model="prf.Programs.Fixed_Rate"/>Fixed Rate</label>
+                <label class="checkbox inline span3"><input type="checkbox" ng-model="prf.Programs.Floating_Rate"/>Floating Rate</label>
+                <label class="checkbox inline span3"><input type="checkbox" ng-model="prf.Programs.Allows_2nd_Mortgage"/>Allows 2nd Mortgage</label>
+                <label class="checkbox inline span3"><input type="checkbox" ng-model="prf.Programs.Prepayment_Fixed_Step_Down"/>Prepayment Fixed/Step Down</label>
+                <label class="checkbox inline span3"><input type="checkbox" ng-model="prf.Programs.Prepayment_Yield_Maintenance"/>Prepayment Yield Maintenance</label>
+                <label class="checkbox inline span3"><input type="checkbox" ng-model="prf.Programs.Prepayment_Defeasance"/>Prepayment Defeasance</label>
+                <label class="checkbox inline span3"><input type="checkbox" ng-model="prf.Programs.Participating_mortgage"/>Participating mortgage</label>
             </div>
             <div class="area-well showon">
                   <span class="legend">Economic Parameters:</span>
-                  <label class="checkbox radio inline"><input type="radio" name="stabil" ng-model="prf.stabil" value="Stabilized" />Stabilized</label>
-                  <label class="checkbox radio inline"><input type="radio" name="stabil" ng-model="prf.stabil" value="Non-stabilized" />Non-stabilized</label>
-                  <label class="checkbox inline"><input type="checkbox" />Non-Cash flowing/vacant</label>
+                  <label class="checkbox radio inline"><input type="radio" name="stabil" ng-model="prf.Economic_Parameters.stabil" value="Stabilized" />Stabilized</label>
+                  <label class="checkbox radio inline"><input type="radio" name="stabil" ng-model="prf.Economic_Parameters.stabil" value="Non-stabilized" />Non-stabilized</label>
+                  <label class="checkbox inline"><input type="checkbox" ng-model="prf.Economic_Parameters.Non_Cash_flowing_vacant"/>Non-Cash flowing/vacant</label>
                 </div>
             </div>
             <div class="area clearfix">
               <div class="pull-right">
                 <button type="button" class="btn btn-default">Cancel</button>
-                <button type="button" class="btn btn-danger" ng-click="update(prf)">Save</button>
+                <button type="button" class="btn btn-danger">Save</button>
               </div>
             </div>
         </article>
     </section>
     <script src="//code.jquery.com/jquery-latest.min.js"></script>
     <script src="javascripts/main.js"></script>
-    <script>
-  function Controller($scope) {
-    $scope.master = {};
-    $scope.prf = {};
-    $scope.prf.geo = "Nationwide";
-    $scope.prf.markets = "none";
-    $scope.update = function(prf) {
-      $scope.master = angular.copy(prf);
-    };
-
-  }
-    </script>
 </body>
 </html>
