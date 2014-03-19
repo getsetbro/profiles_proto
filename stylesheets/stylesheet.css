@@ -156,3 +156,16 @@ pre{
   font-size: 9px;
   line-height: 10px
 }
+
+.geo-dd.us{
+  width:210px;
+  border: 1px solid #cccccc;
+border-radius: 3px;
+overflow: auto;
+height: 99px;
+padding: 10px;
+margin: 10px
+}
+.geo-dd.us .selected{
+  background-color: #ddd
+}

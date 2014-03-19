@@ -1,11 +1,5 @@
 
 //angular
-function Controller($scope) {
-  "use strict";
-
-
-}
-
 (function (app) {
   'use strict';
 
@@ -13,7 +7,12 @@ function Controller($scope) {
 
     $scope.prf = {};
     $scope.wrap = $('article');
-    $scope.prf.Geo = "Nationwide";
+    $scope.prf.Geo = {};
+    $scope.prf.Geo.Type = "Nationwide";
+    $scope.prf.Geo.Country = "United States";
+    $scope.prf.Geo.States = {};
+    $scope.prf.Geo.States.Selected = ["AL","AK","AZ","AR","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NM","NY","NC","ND","OH","OK","OR","PA","RI","SC","SD","TN","TX","UT","VT","VA","WA","WV","WI","WY"];
+    $scope.StatesList = ["AL","AK","AZ","AR","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NM","NY","NC","ND","OH","OK","OR","PA","RI","SC","SD","TN","TX","UT","VT","VA","WA","WV","WI","WY"];
     $scope.prf.Markets = "none";
     $scope.prf.Owner_Buyer = false,
     $scope.prf.Lender = {};
@@ -39,7 +38,16 @@ function Controller($scope) {
       }
     };
     $scope.geoChange = function geoChange(to_show) {
-      $('.geo-dd').hide().filter('#'+to_show).show();
+      $('.geo-dd').hide().filter('.'+to_show).show();
+    };
+    $scope.toggleSelection = function toggleSelection(ST) {
+      var idx = $scope.prf.Geo.States.Selected.indexOf(ST);
+      if (idx > -1) {
+        $scope.prf.Geo.States.Selected.splice(idx, 1);
+      }
+      else {
+        $scope.prf.Geo.States.Selected.push(ST);
+      }
     };
 
   });
