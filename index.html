@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"/>
     <link rel="stylesheet" href="stylesheets/bootstrap202.css" />
     <link rel="stylesheet" href="stylesheets/stylesheet.css" />
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.2/angular.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.min.js"></script>
 
 </head>
 
@@ -88,86 +88,23 @@
                     <button type="button" class="btn btn-mini clearfix" ng-click="Property_type_Active = 'Office'" ng-class="{active: Property_type_Active == 'Office'}">Office <i class="fa fa-arrow-right pull-right"></i></button><br/>
                     <button type="button" class="btn btn-mini clearfix" ng-click="Property_type_Active = 'Retail'" ng-class="{active: Property_type_Active == 'Retail'}">Retail <i class="fa fa-arrow-right pull-right"></i></button><br/>
                     <button type="button" class="btn btn-mini clearfix" ng-click="Property_type_Active = 'Industrial'" ng-class="{active: Property_type_Active == 'Industrial'}">Industrial <i class="fa fa-arrow-right pull-right"></i></button><br/>
-                    <button type="button" class="btn btn-mini clearfix" ng-click="Property_type_Active = 'Multi Family'" ng-class="{active: Property_type_Active == 'Multi Family'}">Multi-Family <i class="fa fa-arrow-right pull-right"></i></button><br/>
-                    <button type="button" class="btn btn-mini clearfix" ng-click="Property_type_Active = 'Senior Living'" ng-class="{active: Property_type_Active == 'Seniorliving'}">Senior-Living <i class="fa fa-arrow-right pull-right"></i></button><br/>
+                    <button type="button" class="btn btn-mini clearfix" ng-click="Property_type_Active = 'Multi-Family'" ng-class="{active: Property_type_Active == 'Multi-Family'}">Multi-Family <i class="fa fa-arrow-right pull-right"></i></button><br/>
+                    <button type="button" class="btn btn-mini clearfix" ng-click="Property_type_Active = 'Senior-Living'" ng-class="{active: Property_type_Active == 'Senior-Living'}">Senior-Living <i class="fa fa-arrow-right pull-right"></i></button><br/>
                     <button type="button" class="btn btn-mini clearfix" ng-click="Property_type_Active = 'Medical'" ng-class="{active: Property_type_Active == 'Medical'}">Medical <i class="fa fa-arrow-right pull-right"></i></button><br/>
                     <button type="button" class="btn btn-mini clearfix" ng-click="Property_type_Active = 'Other'" ng-class="{active: Property_type_Active == 'Other'}">Other <i class="fa fa-arrow-right pull-right"></i></button><br/>
                     <button type="button" class="btn btn-mini clearfix" ng-click="Property_type_Active = 'Land'" ng-class="{active: Property_type_Active == 'Land'}">Land <i class="fa fa-arrow-right pull-right"></i></button>
                   </div>
                   <div class="span8 proptype-slcts">
                     <h4>{{Property_type_Active}}:</h4>
-                    <select multiple class="pt" ng-model="prf.Property_type.Office" ng-show="Property_type_Active == 'Office'">
-                        <option value="Office Multi Tenant">Multi Tenant</option>
-                        <option value="Office Single Tenant">Single Tenant</option>
-                        <option value="Office Credit">Credit</option>
-                        <option value="Office Data Center">Data Center</option>
-                        <option value="Office Non-Credit">Non-Credit</option>
-                        <option value="Office Medical (MOB)">Medical (MOB)</option>
-                        <option value="Office GSA">GSA</option>
-                        <option value="Office Owner Occupied">Owner Occupied</option>
-                    </select>
-                    <select multiple class="pt" ng-model="prf.Property_type.Retail" ng-show="Property_type_Active == 'Retail'">
-                        <option value="Retail Multi Tenant">Multi Tenant</option>
-                        <option value="Retail Single Tenant">Single Tenant</option>
-                        <option value="Retail Credit">Credit</option>
-                        <option value="Retail Non">Non-Credit</option>
-                        <option value="Retail Malls">Malls</option>
-                        <option value="Retail Grocery Anchored">Grocery Anchored</option>
-                        <option value="Retail Unanchored">Unanchored</option>
-                        <option value="Retail Power Center/Big Box">Power Center/Big Box</option>
-                        <option value="Retail Specialty">Specialty</option>
-                        <option value="Retail Mixed Use">Mixed Use</option>
-                        <option value="Retail Owner occupied">Owner Occupied</option>
-                    </select>
-                    <select multiple class="pt" ng-model="prf.Property_type.Industrial" ng-show="Property_type_Active == 'Industrial'">
-                        <option value="Industrial Manufacturing – Heavy">Manufacturing – Heavy</option>
-                        <option value="Industrial Manufacturing - Light">Manufacturing - Light</option>
-                        <option value="Industrial Distribution/Warehouse">Distribution/Warehouse</option>
-                        <option value="Industrial Owner Occupied">Owner Occupied</option>
-                        <option value="Industrial Flex">Flex</option>
-                    </select>
-                    <select multiple class="pt" ng-model="prf.Property_type.MultiFamily" ng-show="Property_type_Active == 'Multi Family'">
-                        <option value="Multi-Family Urban/Core">Urban/Core</option>
-                        <option value="Multi-Family Suburban">Suburban</option>
-                        <option value="Multi-Family Garden">Garden</option>
-                        <option value="Multi-Family Mid Rise">Mid Rise</option>
-                        <option value="Multi-Family High Rise">High Rise</option>
-                        <option value="Multi-Family Condominium">Condominium</option>
-                        <option value="Multi-Family Fractured Condominium">Fractured Condominium</option>
-                        <option value="Multi-Family Mixed Use">Mixed Use</option>
-                        <option value="Multi-Family Student">Student</option>
-                        <option value="Multi-Family Manufactured Housing">Manufactured Housing</option>
-                        <option value="Multi-Family Military">Military</option>
-                    </select>
-                    <select multiple class="pt" ng-model="prf.Property_type.SeniorLiving" ng-show="Property_type_Active == 'Senior Living'">
-                        <option value="Senior-Living Independent">Independent</option>
-                        <option value="Senior-Living Assisted">Assisted</option>
-                        <option value="Senior-Living Memory Care">Memory Care</option>
-                    </select>
-                    <select multiple class="pt" ng-model="prf.Property_type.Medical" ng-show="Property_type_Active == 'Medical'">
-                        <option value="Medical Hospital">Hospital</option>
-                        <option value="Medical Surgical center">Surgical center</option>
-                        <option value="Medical Medical (MOB)">Medical (MOB)</option>
-                    </select>
-                    <select multiple class="pt" ng-model="prf.Property_type.Other" ng-show="Property_type_Active == 'Other'">
-                        <option value="Other Environmentally challenged">Environmentally challenged</option>
-                        <option value="Other Assets/redevelopment">Assets/redevelopment</option>
-                        <option value="Other Lot Development">Lot Development</option>
-                        <option value="Other Data Center">Data Center</option>
-                        <option value="Other Marina">Marina</option>
-                        <option value="Other Golf Course/Golf Course Resort">Golf Course/Golf Course Resort</option>
-                        <option value="Other Self Storage">Self Storage</option>
-                    </select>
-                    <select multiple class="pt" ng-model="prf.Property_type.Land" ng-show="Property_type_Active == 'Land'">
-                        <option value="Land Residential">Residential</option>
-                        <option value="Land Multi Family">Multi Family</option>
-                        <option value="Land Office">Office</option>
-                        <option value="Land Industrial">Industrial</option>
-                        <option value="Land Retail">Retail</option>
-                        <option value="Land Resort">Resort</option>
-                        <option value="Land Timber">Timber</option>
-                        <option value="Land Agricultural">Agricultural</option>
-                    </select>
+                    <div ng-repeat="(key, value) in Property_type" class="pt" ng-show="Property_type_Active == key">
+                      <div class="btn-group">
+                        <button class="btn btn-mini" ng-click="fillPT(key)"><i class="fa fa-check-square-o"></i> All</button>
+                        <button class="btn btn-mini" ng-click="prf.Property_type[key] = []"><i class="fa fa-check-square-o"></i> None</button>
+                      </div>
+                      <label ng-repeat="item in value | orderBy:'toString()' | filter:searchText" class="checkbox" ng-class="{selected: prf.Property_type[key].indexOf(item) > -1}">
+                        <input type="checkbox" name="selectedST" value="{{item}}" ng-checked="prf.Property_type[key].indexOf(item) > -1" ng-click="togglePT(item,key)"> {{item}}
+                      </label>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -176,14 +113,18 @@
                 <div class="row-fluid">
                   <div class="span5">
                     <label class="checkbox radio inline"><input type="radio" name="geo" ng-model="prf.Geo.Type" value="Nationwide" ng-change="geoChange('us')" /> Nationwide</label>
-                    <label class="checkbox radio inline"><input type="radio" name="geo" ng-model="prf.Geo.Type" value="International" ng-change="geoChange('in')" /> International</label>
-                  </div>
-                  <div class="span7">
                     <div class="geo-dd us">
-                      <label ng-repeat="ST in StatesList" class="checkbox" ng-class="{selected: prf.Geo.States.Selected.indexOf(ST) > -1}">
-                        <input type="checkbox" name="selectedST" value="{{ST}}" ng-checked="prf.Geo.States.Selected.indexOf(ST) > -1" ng-class="prf.Geo.States.Selected.indexOf(ST) > -1" ng-click="toggleSelection(ST)"> {{ST}}
+                      <div class="btn-group">
+                        <button class="btn btn-mini" ng-click="fillStates()"><i class="fa fa-check-square-o"></i> All</button>
+                        <button class="btn btn-mini" ng-click="prf.Geo.States = []"><i class="fa fa-check-square-o"></i> None</button>
+                      </div>
+                      <label ng-repeat="ST in StatesList" class="checkbox" ng-class="{selected: prf.Geo.States.indexOf(ST) > -1}">
+                        <input type="checkbox" value="{{ST}}" ng-checked="prf.Geo.States.indexOf(ST) > -1" ng-click="toggleState(ST)"/> {{ST}}
                       </label>
                     </div>
+                  </div>
+                  <div class="span7">
+                    <label class="checkbox radio inline"><input type="radio" name="geo" ng-model="prf.Geo.Type" value="International" ng-change="geoChange('in')" /> International</label>
                     <select class="geo-dd hide in" ng-model="prf.Geo.Country">
                       <option value="Afghanistan">Afghanistan</option>
                       <option value="Albania">Albania</option>
@@ -403,11 +344,11 @@
             </div>
             <div class="row area-well showon showon-owner">
                 <span class="legend">Client Programs:</span>
-                <label ng-repeat="cp in Client_Programs" class="checkbox inline span3"><input type="checkbox" ng-checked="prf.Client_Programs.indexOf(cp) > -1" ng-click="cpToggleSelect(cp)"/>{{cp}}</label>
+                <label ng-repeat="cp in Client_Programs | orderBy:'toString()' | filter:searchText" class="checkbox inline span3"><input type="checkbox" ng-checked="prf.Client_Programs.indexOf(cp) > -1" ng-click="cpToggleSelect(cp)"/>{{cp}}</label>
             </div>
             <div class="row area-well showon">
                 <span class="legend">Programs:</span>
-                <label ng-repeat="prog in Programs" class="checkbox inline span3"><input type="checkbox" ng-checked="prf.Programs.indexOf(prog) > -1" ng-click="progToggleSelect(prog)"/>{{prog}}</label>
+                <label ng-repeat="prog in Programs | orderBy:'toString()' | filter:searchText" class="checkbox inline span3"><input type="checkbox" ng-checked="prf.Programs.indexOf(prog) > -1" ng-click="progToggleSelect(prog)"/>{{prog}}</label>
             </div>
 
             <div class="area-well showon">
@@ -417,6 +358,7 @@
                   <label class="checkbox inline"><input type="checkbox" ng-model="prf.Economic_Parameters.Non_Cash_flowing_vacant"/>Non-Cash flowing/vacant</label>
                 </div>
             </div>
+
             <div class="area clearfix">
               <div class="pull-right">
                 <button type="button" class="btn btn-default">Cancel</button>

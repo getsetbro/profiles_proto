@@ -12,6 +12,12 @@ body, body * {
 input[type="text"]{
   box-sizing: content-box;
 }
+label {
+margin-bottom: 0
+}
+input {
+height: 9px;
+}
 .input-append{
   white-space: nowrap;
 }
@@ -169,11 +175,11 @@ pre{
   display: inline-block;
   vertical-align: top
 }
-.geo-dd.us label{
-margin-bottom: 1px
+.geo-dd.us label, .pt label{
+margin-top: 1px
 }
-.geo-dd.us .selected{
-  background-color: #ccc;
+.geo-dd.us .selected, .pt .selected{
+  background-color: #eee;
 }
 
 .proptype-btns{
@@ -182,16 +188,20 @@ margin-bottom: 1px
 .proptype-btns button{
   min-width: 100%
 }
-.proptype-slcts select{
-margin-bottom: 0;
-height: 142px
-}
+
 .radio.inline, .checkbox.inline {
 padding-top: 0;
 }
-label {
-margin-bottom: 0
-}
-input {
-height: 9px;
+
+.pt{
+  width: 210px;
+max-width: 100%;
+height: 142px;
+border: 1px solid #ccc;
+border-radius: 3px;
+overflow: auto;
+padding: 4px;
+margin-bottom: 10px;
+display: inline-block;
+vertical-align: top;
 }
