@@ -353,9 +353,11 @@
 
             <div class="area-well showon">
                   <span class="legend">Economic Parameters:</span>
-                  <label class="checkbox radio inline"><input type="radio" name="stabil" ng-model="prf.Economic_Parameters.Stable" value="Stabilized" />Stabilized</label>
-                  <label class="checkbox radio inline"><input type="radio" name="stabil" ng-model="prf.Economic_Parameters.Stable" value="Non-stabilized" />Non-stabilized</label>
-                  <label class="checkbox radio inline"><input type="radio" name="stabil" ng-model="prf.Economic_Parameters.Stable" value="None" />None</label>
+                  <span class="inline-group">
+                    <label class="checkbox radio inline"><input type="radio" name="stabil" ng-model="prf.Economic_Parameters.Stable" value="Stabilized" />Stabilized</label>
+                    <label class="checkbox radio inline"><input type="radio" name="stabil" ng-model="prf.Economic_Parameters.Stable" value="Non-stabilized" />Non-stabilized</label>
+                    <label class="checkbox radio inline"><input type="radio" name="stabil" ng-model="prf.Economic_Parameters.Stable" value="None" />None</label>
+                  </span>
                   <label class="checkbox inline"><input type="checkbox" ng-model="prf.Economic_Parameters.Non_Cash_flowing_vacant"/>Non-Cash flowing/vacant</label>
                 </div>
             </div>
