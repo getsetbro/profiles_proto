@@ -32,14 +32,7 @@
       "Land": ["Residential","Multi Family","Office","Industrial","Retail","Resort","Timber","Agricultural"]
     };
     $scope.prf.Property_type = {
-      "Office": ["Multi Tenant","Single Tenant","Credit","Data Center","Non-Credit","Medical (MOB)","GSA","Owner Occupied"],
-      "Retail": ["Multi Tenant","Single Tenant","Credit","Non","Malls","Grocery Anchored","Unanchored","Power Center/Big Box","Specialty","Mixed Use","Owner occupied"],
-      "Industrial": ["Manufacturing – Heavy","Manufacturing - Light","Distribution/Warehouse","Owner Occupied","Flex"],
-      "Multi-Family": ["Urban/Core","Suburban","Garden","Mid Rise","High Rise","Condominium","Fractured Condominium","Mixed Use","Student","Manufactured Housing","Military"],
-      "Senior-Living": ["Independent","Assisted","Memory Care"],
-      "Medical": ["Hospital","Surgical center","Medical (MOB)"],
-      "Other": ["Environmentally challenged","Assets/redevelopment","Lot Development","Data Center","Marina","Golf Course/Golf Course Resort","Self Storage"],
-      "Land": ["Residential","Multi Family","Office","Industrial","Retail","Resort","Timber","Agricultural"]
+
     };
     $scope.Property_type_Active = "Office";
     $scope.toggleProfile = function toggleProfile(css) {
