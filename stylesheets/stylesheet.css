@@ -9,7 +9,7 @@ body, body * {
   box-sizing: border-box;
 }
 /*bootstrap changes*/
-input[type="text"],input[type="number"]{
+input[type="text"], input[type="number"]{
   box-sizing: content-box;
 }
 label {
