@@ -32,7 +32,14 @@
       "Land": ["Residential","Multi Family","Office","Industrial","Retail","Resort","Timber","Agricultural"]
     };
     $scope.prf.Property_type = {
-
+      "Office": [],
+      "Retail": [],
+      "Industrial": [],
+      "Multi-Family": [],
+      "Senior-Living": [],
+      "Medical": [],
+      "Other": [],
+      "Land": []
     };
     $scope.Property_type_Active = "Office";
     $scope.toggleProfile = function toggleProfile(css) {
