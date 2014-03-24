@@ -12,10 +12,10 @@
         $scope.StatesList = ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"];
         $scope.prf.Geo.States = [];
         $scope.prf.Markets = "1st_2nd_3rd";
-        $scope.prf.Owner_Buyer = false,
-        $scope.prf.Lender = {};
-        $scope.prf.Lender.Structured_Finance = false;
-        $scope.prf.Lender.Debt = false;
+        $scope.prf.Cat = {};
+        $scope.prf.Cat.Structured_Finance = false;
+        $scope.prf.Cat.Debt = false;
+        $scope.prf.Cat.Owner_Buyer = false,
         $scope.prf.Client_Programs = [];
         $scope.Client_Programs = ["Core", "Developer", "JVs Only", "Core Plus", "Cash Buyer", "Value Add", "Leverage Buyer", "Opportunistic", "JVs Considered"];
         $scope.prf.Programs = [];
@@ -44,19 +44,19 @@
         };
         $scope.Property_type_Active = "Office";
         $scope.toggleProfile = function toggleProfile(css) {
-            if ($scope.prf.Lender.Structured_Finance || $scope.prf.Lender.Debt) {
-                $scope.prf.Owner_Buyer = false,
+            if ($scope.prf.Cat.Structured_Finance || $scope.prf.Cat.Debt) {
+                $scope.prf.Cat.Owner_Buyer = false,
                 $scope.wrap.addClass(css);
                 $scope.wrap.removeClass('owner');
             } else {
                 $scope.wrap.attr("class", 'owner');
-                $scope.prf.Owner_Buyer = true;
+                $scope.prf.Cat.Owner_Buyer = true;
             }
         };
         $scope.toggleLender = function toggleLender() {
-            if ($scope.prf.Owner_Buyer) {
-                $scope.prf.Lender.Structured_Finance = false;
-                $scope.prf.Lender.Debt = false;
+            if ($scope.prf.Cat.Owner_Buyer) {
+                $scope.prf.Cat.Structured_Finance = false;
+                $scope.prf.Cat.Debt = false;
                 $scope.wrap.attr("class", 'owner');
             } else {
                 $scope.wrap.removeClass('owner');
@@ -111,6 +111,10 @@
         $scope.prf.Deal_Size.min = -1;
         $scope.prf.Deal_Size.max = -1;
         $scope.save = function save() {
+            if ( $scope.prf.Cat.Structured_Finance === false && $scope.prf.Cat.Debt === false && $scope.prf.Cat.Owner_Buyer === false ) {
+                alert("A Category must be selected");
+                return false;
+            }
             if ($scope.prf.Deal_Size.min < 0) {
                 alert("Min deal size cannot be empty");
                 return false;

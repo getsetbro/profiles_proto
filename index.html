@@ -22,8 +22,9 @@
     <section class="section" ng-controller="Controller">
         <nav>tabs</nav>
         <aside>
-<!--             <pre>{{prf | json}}</pre>
- -->
+
+             <pre>{{prf | json}}</pre>
+
         </aside>
         <article>
             <div class="area">
@@ -36,9 +37,9 @@
             <div class="row-fluid row-well">
               <div class="span6 span-well">
                   <span class="legend">Category:</span>
-                  <label class="checkbox inline"><input type="checkbox" name="cat-x" ng-model="prf.Lender.Debt" ng-change="toggleProfile('debt')"/>Debt</label>
-                  <label class="checkbox inline"><input type="checkbox" name="cat-x" ng-model="prf.Lender.Structured_Finance" ng-change="toggleProfile('str_fin')"/>Structured Finance</label>
-                  <label class="checkbox inline"><input type="checkbox" name="cat-y" ng-model="prf.Owner_Buyer" ng-change="toggleLender()"/>Owner</label>
+                  <label class="checkbox inline"><input type="checkbox" name="cat-x" ng-model="prf.Cat.Debt" ng-change="toggleProfile('debt')"/>Debt</label>
+                  <label class="checkbox inline"><input type="checkbox" name="cat-x" ng-model="prf.Cat.Structured_Finance" ng-change="toggleProfile('str_fin')"/>Structured Finance</label>
+                  <label class="checkbox inline"><input type="checkbox" name="cat-y" ng-model="prf.Cat.Owner_Buyer" ng-change="toggleLender()"/>Owner</label>
               </div>
               <!--<div class="span6 span-well">
                   <span class="legend">Vehicles:</span>
@@ -79,14 +80,14 @@
                 <label class="checkbox inline"><input type="checkbox" ng-model="prf.Property_Quality.Sub_C" />Sub C</label>
               </div>
               <div class="span4 span-well showon showon-owner">
-                <span class="legend">Deal Size:</span>
+                <span class="legend">Deal Size $:</span>
                 <span class="nowrap">Min: <input type="number" class="inlineinput no-bottom-margin" ng-model="prf.Deal_Size.min" min="0" max="99" required/></span>
                 <span class="nowrap">Max: <input type="number" class="inlineinput no-bottom-margin" ng-model="prf.Deal_Size.max" min="0" max="99" required/></span>
               </div>
             </div>
 
             <div class="row area-well showon showon-owner">
-                <span class="legend">Client Programs:</span>
+                <span class="legend">Owner Programs:</span>
                 <label ng-repeat="cp in Client_Programs | orderBy:'toString()' | filter:searchText" class="checkbox inline span3"><input type="checkbox" ng-checked="prf.Client_Programs.indexOf(cp) > -1" ng-click="cpToggleSelect(cp)"/>{{cp}}</label>
             </div>
 
